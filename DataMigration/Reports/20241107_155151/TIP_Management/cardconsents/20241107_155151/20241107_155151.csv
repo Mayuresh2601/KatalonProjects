@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+cardconsents,,,,07-11-2024 15:51:57,07-11-2024 15:52:11,13.586s,FAILED
+,,,,,,,
+Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id,,TIP Management - GET TIP Card Consents,"getConsentsQuery,getCardConsentsById",07-11-2024 15:51:58,07-11-2024 15:52:08,10.030s,FAILED
+Start listener action : Before,,,,07-11-2024 15:51:59,07-11-2024 15:52:03,3.407s,PASSED
+"if (flag == ""Y"")",,,,07-11-2024 15:52:04,07-11-2024 15:52:07,2.907s,FAILED
+Start listener action : afterTestCase,,,,07-11-2024 15:52:07,07-11-2024 15:52:08,0.957s,FAILED
+,,,,,,,
+Test Cases/TIP_Management/card-consents/FCA_15723_GET_TIP_Card_Consents,,TIP Management - GET TIP Card Consents,"getConsentsQuery,getCardConsents",07-11-2024 15:52:08,07-11-2024 15:52:11,2.952s,FAILED
+Start listener action : Before,,,,07-11-2024 15:52:08,07-11-2024 15:52:09,0.007s,PASSED
+"if (flag == ""Y"")",,,,07-11-2024 15:52:09,07-11-2024 15:52:10,1.976s,FAILED
+Start listener action : afterTestCase,,,,07-11-2024 15:52:10,07-11-2024 15:52:11,0.183s,FAILED

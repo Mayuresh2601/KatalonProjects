@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+providers,,,,22-10-2024 09:12:19,22-10-2024 09:12:34,15.442s,ERROR
+,,,,,,,
+Test Cases/TIP_Management/provider/FCA-15702_TIP Management - GET TIP Providers,,[BE][QA] TIP Management - GET TIP Providers,getProviders,22-10-2024 09:12:19,22-10-2024 09:12:31,11.536s,ERROR
+Start listener action : Before,,,,22-10-2024 09:12:21,22-10-2024 09:12:25,3.368s,PASSED
+"if (flag == ""Y"")",,,,22-10-2024 09:12:26,22-10-2024 09:12:30,4.436s,ERROR
+Start listener action : afterTestCase,,,,22-10-2024 09:12:30,22-10-2024 09:12:31,0.867s,PASSED
+,,,,,,,
+Test Cases/TIP_Management/provider/FCA-15703_TIP Management - GET TIP Provider by Id,,[BE][QA] TIP Management - GET TIP Provider by Id,getProviders,22-10-2024 09:12:31,22-10-2024 09:12:34,3.275s,PASSED
+Start listener action : Before,,,,22-10-2024 09:12:32,22-10-2024 09:12:32,0.013s,PASSED
+"if (flag == ""Y"")",,,,22-10-2024 09:12:33,22-10-2024 09:12:34,1.141s,PASSED
+Start listener action : afterTestCase,,,,22-10-2024 09:12:34,22-10-2024 09:12:34,0.082s,PASSED

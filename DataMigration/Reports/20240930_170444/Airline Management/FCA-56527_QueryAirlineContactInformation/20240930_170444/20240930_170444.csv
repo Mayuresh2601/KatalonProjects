@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCA-56527_QueryAirlineContactInformation,,,,30-09-2024 17:04:50,30-09-2024 17:05:10,19.745s,PASSED
+,,,,,,,
+Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation,,airline-contact-information,"getQuery,airlineContactInfo,getAirlineContactInfo",30-09-2024 17:04:51,30-09-2024 17:05:06,15.697s,PASSED
+Start listener action : Before,,,,30-09-2024 17:04:53,30-09-2024 17:04:56,3.137s,PASSED
+"if (flag == ""Y"")",,,,30-09-2024 17:04:57,30-09-2024 17:05:06,8.974s,PASSED
+Start listener action : afterTestCase,,,,30-09-2024 17:05:06,30-09-2024 17:05:06,0.702s,PASSED
+,,,,,,,
+Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation,,airline-contact-information,"getQuery,airlineContactInfo,getAirlineContactInfo",30-09-2024 17:05:06,30-09-2024 17:05:09,2.018s,PASSED
+Start listener action : Before,,,,30-09-2024 17:05:07,30-09-2024 17:05:07,0.007s,PASSED
+"if (flag == ""Y"")",,,,30-09-2024 17:05:07,30-09-2024 17:05:08,1.330s,PASSED
+Start listener action : afterTestCase,,,,30-09-2024 17:05:08,30-09-2024 17:05:09,0.057s,PASSED
+,,,,,,,
+Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation,,airline-contact-information,"getQuery,airlineContactInfo,getAirlineContactInfo",30-09-2024 17:05:09,30-09-2024 17:05:10,1.313s,PASSED
+Start listener action : Before,,,,30-09-2024 17:05:09,30-09-2024 17:05:09,0.003s,PASSED
+"if (flag == ""Y"")",,,,30-09-2024 17:05:09,30-09-2024 17:05:10,1.135s,PASSED
+Start listener action : afterTestCase,,,,30-09-2024 17:05:10,30-09-2024 17:05:10,0.056s,PASSED

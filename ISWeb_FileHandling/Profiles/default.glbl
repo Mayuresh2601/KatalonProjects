@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\mayuresh.sonar\\OneDrive - Accelya\\Documents\\directory'</initValue>
+      <name>sourceFolder</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\mayuresh.sonar\\OneDrive - Accelya\\Documents\\sftp directory\\'</initValue>
+      <name>sftpFolder</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

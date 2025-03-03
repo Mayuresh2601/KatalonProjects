@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="remittance" time="12.994" tests="1" failures="0" errors="0">
+   <testsuite name="remittance" tests="1" failures="0" errors="0" time="12.994" skipped="0" timestamp="11-10-2024T18:09:47" hostname="Mayuresh.Sonar - CCE1019.accelya.local" id="Test Suites/Variable_Remittance/remittance">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mayuresh.sonar\\KatalonStudio\\DataMigration\\NFE-API-automationK\\Reports\\20241011_180942\\Variable_Remittance\\remittance\\20241011_180942"/>
+         <property name="logFiles" value="C:\\Users\\mayuresh.sonar\\KatalonStudio\\DataMigration\\NFE-API-automationK\\Reports\\20241011_180942\\Variable_Remittance\\remittance\\20241011_180942\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mayuresh.Sonar - CCE1019.accelya.local"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.4.212"/>
+      </properties>
+      <testcase name="Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents" time="12.395" classname="Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents" status="PASSED">
+         <system-out><![CDATA[11-10-2024T18:09:48 - [TEST_CASE][PASSED] - Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents: Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents
+
+11-10-2024T18:09:50 - [TEST_STEP][PASSED] - Start listener action : Before: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)'
+
+11-10-2024T18:09:50 - [TEST_STEP][PASSED] - tc_description = testCaseContext.getMessage(): null
+
+11-10-2024T18:09:50 - [TEST_STEP][PASSED] - tcName = testCaseId: null
+
+11-10-2024T18:09:50 - [TEST_STEP][PASSED] - println(tcName): null
+
+11-10-2024T18:09:50 - [TEST_STEP][PASSED] - reporting.ExtentReporting.startTest(reportPath, testSuiteName, tcName, tc_description, author, "Extent Test", reportFile): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T18:09:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T18:09:52 - [MESSAGE][PASSED] - reporting.ExtentReporting.startTest is PASSED
+
+11-10-2024T18:09:52 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+11-10-2024T18:09:53 - [TEST_STEP][PASSED] - if (flag == "Y"): null
+
+11-10-2024T18:09:53 - [TEST_STEP][PASSED] - path = endPoint: null
+
+11-10-2024T18:09:53 - [TEST_STEP][PASSED] - URL_QA = baseURL_QA + "/" + basePathAPI + "/" + path: null
+
+11-10-2024T18:09:53 - [TEST_STEP][PASSED] - queryResponseQA = sendRequest(findTestObject("CommonRequest/GET_Method_QA", ["token":agent0230010QA, "endPoint":path])): Send request successfully
+
+11-10-2024T18:09:53 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/CommonRequest/GET_Method_QA'
+
+11-10-2024T18:09:53 - [MESSAGE][INFO] - Checking request object
+
+11-10-2024T18:09:57 - [MESSAGE][INFO] - HAR: C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Reports\20241011_180942\Variable_Remittance\remittance\20241011_180942\requests\main\0.har
+
+11-10-2024T18:09:57 - [MESSAGE][PASSED] - Send request successfully
+
+11-10-2024T18:09:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(queryResponseQA, 200): Verify response status code successfully
+
+11-10-2024T18:09:57 - [MESSAGE][INFO] - Checking response object
+
+11-10-2024T18:09:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+11-10-2024T18:09:57 - [TEST_STEP][PASSED] - responseQA = queryResponseQA.getResponseBodyContent(): null
+
+11-10-2024T18:09:57 - [TEST_STEP][PASSED] - URL_QAMIG = baseURL_QA_MIG + "/" + basePathAPI + "/" + path: null
+
+11-10-2024T18:09:57 - [TEST_STEP][PASSED] - queryResponseQAMIG = sendRequest(findTestObject("CommonRequest/GET_Method_QA_MIG", ["token":agent0230010QAMIG, "endPoint":path])): Send request successfully
+
+11-10-2024T18:09:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/CommonRequest/GET_Method_QA_MIG'
+
+11-10-2024T18:09:57 - [MESSAGE][INFO] - Checking request object
+
+11-10-2024T18:09:59 - [MESSAGE][INFO] - HAR: C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Reports\20241011_180942\Variable_Remittance\remittance\20241011_180942\requests\main\1.har
+
+11-10-2024T18:09:59 - [MESSAGE][PASSED] - Send request successfully
+
+11-10-2024T18:09:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(queryResponseQAMIG, 200): Verify response status code successfully
+
+11-10-2024T18:09:59 - [MESSAGE][INFO] - Checking response object
+
+11-10-2024T18:09:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+11-10-2024T18:09:59 - [TEST_STEP][PASSED] - responseQAMIG = queryResponseQAMIG.getResponseBodyContent(): null
+
+11-10-2024T18:09:59 - [TEST_STEP][PASSED] - ignoreNodesList = Arrays.asList(ignoreNodes.split(",")): null
+
+11-10-2024T18:09:59 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null
+
+11-10-2024T18:09:59 - [TEST_STEP][PASSED] - responseQAObject = jsonSlurper.parseText(responseQA): null
+
+11-10-2024T18:09:59 - [TEST_STEP][PASSED] - jsonObjectQA = responseQAObject: null
+
+11-10-2024T18:09:59 - [TEST_STEP][PASSED] - responseQAMIGObject = jsonSlurper.parseText(responseQAMIG): null
+
+11-10-2024T18:09:59 - [TEST_STEP][PASSED] - jsonObjectQAMIG = responseQAMIGObject: null
+
+11-10-2024T18:09:59 - [TEST_STEP][PASSED] - comparator = compare.CompareJsonResponse.getComparator(ignoreNodes): compare.CompareJsonResponse.getComparator is PASSED
+
+11-10-2024T18:09:59 - [MESSAGE][PASSED] - compare.CompareJsonResponse.getComparator is PASSED
+
+11-10-2024T18:09:59 - [TEST_STEP][PASSED] - compare.GetDifferences.clearSetValues(): compare.GetDifferences.clearSetValues is PASSED
+
+11-10-2024T18:09:59 - [MESSAGE][PASSED] - compare.GetDifferences.clearSetValues is PASSED
+
+11-10-2024T18:09:59 - [TEST_STEP][PASSED] - if (jsonObjectQA.has("records") || jsonObjectQAMIG.has("records")): compare.GetDifferences.setDifferencesFromResult is PASSED
+
+11-10-2024T18:09:59 - [TEST_STEP][PASSED] - keySet().each({ java.lang.Object key -> ... }): compare.GetDifferences.setDifferencesFromResult is PASSED
+
+11-10-2024T18:09:59 - [MESSAGE][PASSED] - compare.CompareJsonResponse.compareObjectValues is PASSED
+
+11-10-2024T18:09:59 - [MESSAGE][INFO] - failedFieldsList -> []
+
+11-10-2024T18:09:59 - [MESSAGE][PASSED] - compare.GetDifferences.setDifferencesFromResult is PASSED
+
+11-10-2024T18:09:59 - [MESSAGE][PASSED] - compare.CompareJsonResponse.compareObjectValues is PASSED
+
+11-10-2024T18:09:59 - [MESSAGE][INFO] - failedFieldsList -> []
+
+11-10-2024T18:09:59 - [MESSAGE][PASSED] - compare.GetDifferences.setDifferencesFromResult is PASSED
+
+11-10-2024T18:09:59 - [MESSAGE][PASSED] - common.Utility.getValueFromResponseJson is PASSED
+
+11-10-2024T18:09:59 - [MESSAGE][PASSED] - common.Utility.getValueFromResponseJson is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - compare.CompareJsonResponse.removeNode is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - compare.CompareJsonResponse.removeNode is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - compare.CompareJsonResponse.sortJSONArrayAsc is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - compare.CompareJsonResponse.sortJSONArrayAsc is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - failedFieldsList -> []
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - compare.GetDifferences.setDifferencesFromResult is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - compare.CompareJsonResponse.compareObjectValues is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - failedFieldsList -> []
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - compare.GetDifferences.setDifferencesFromResult is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList = ignoreNodesList: null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - failedList = new java.util.ArrayList(CustomKeywords.compare.GetDifferences.getFailedFieldsList()): compare.GetDifferences.getFailedFieldsList is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - failedFieldsList size -> 0
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - compare.GetDifferences.getFailedFieldsList is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - missingList = new java.util.ArrayList(CustomKeywords.compare.GetDifferences.getMissingFieldsList()): compare.GetDifferences.getMissingFieldsList is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - missingFieldsList size -> 0
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - compare.GetDifferences.getMissingFieldsList is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - unexpectedList = new java.util.ArrayList(CustomKeywords.compare.GetDifferences.getUnexpectedFieldsList()): compare.GetDifferences.getUnexpectedFieldsList is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - unexpectedFieldsList size -> 0
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - compare.GetDifferences.getUnexpectedFieldsList is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - if (failedList.size() > 0): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)'
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - logInfo(testCaseContext.getTestCaseId()): Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - logInfo(testCaseContext.getTestCaseStatus()): PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - responseQA = getTestCaseVariables().get("responseQA"): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - responseQAMIG = getTestCaseVariables().get("responseQAMIG"): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - sortedQA = getTestCaseVariables().get("sortedRecordsQA"): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - sortedQAMIG = getTestCaseVariables().get("sortedRecordsQAMIG"): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logStringData("URL_QA", getTestCaseVariables().get("URL_QA")): reporting.ExtentReporting.logStringData is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - reporting.ExtentReporting.logStringData is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logStringData("URL_QAMIG", getTestCaseVariables().get("URL_QAMIG")): reporting.ExtentReporting.logStringData is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - reporting.ExtentReporting.logStringData is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logJSONData("QA Response", responseQA): reporting.ExtentReporting.logJSONData is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - reporting.ExtentReporting.logJSONData is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logJSONData("QAMIG Response", responseQAMIG): reporting.ExtentReporting.logJSONData is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - reporting.ExtentReporting.logJSONData is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equals("FAILED")): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - else if (getTestCaseStatus().equals("ERROR")): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - else: reporting.ExtentReporting.logListData is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - flag = getTestCaseVariables().get("flag"): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - if (flag.equalsIgnoreCase("N")): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - else: reporting.ExtentReporting.logListData is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - reporting.ExtentReporting.testStatus("PASS", testCaseContext.getTestCaseId() + " Passed"): reporting.ExtentReporting.testStatus is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - reporting.ExtentReporting.testStatus is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - logInfo(getTestCaseVariables().get("URL_QA")): https://gateway-gateway.apps.qa.okd4.nfe.projects.nonprod.itd.farelogix.com/api/variable-remittance/frequencies?bspId=6772&sort=agent.name,ASC
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - https://gateway-gateway.apps.qa.okd4.nfe.projects.nonprod.itd.farelogix.com/api/variable-remittance/frequencies?bspId=6772&sort=agent.name,ASC
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - responseQAValue = getTestCaseVariables().get("responseQA"): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - logInfo(sortedQA): [{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"001","name":"AMEXXXXX XXXXXXXX XÏ","id":6772484849},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":3},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"010","name":"DNYANESHAIRLINE","id":6772484948},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"014","name":"Air XXXXXX","id":6772484952},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"030","name":"VueXXXX","id":6772485148},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"031","name":"PreXXXXXX XXX","id":6772485149},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"044","name":"AerXXXXXXX XXXXXXXXXX X.X.","id":6772485252},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"045","name":"LATXX XXXXXXXX","id":6772485253},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"050","name":"OlyXXXX XXX","id":6772485348},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"053","name":"Aer XXXXXX XXXXXXX","id":6772485351},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"061","name":"Air XXXXXXXXXX XXXXXXX","id":6772485449},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"066","name":"OnuX XXX XXXXXXXXXXX X.X.","id":6772485454},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"068","name":"LAM - XXXXXX XXXXXX XX XXXXXXXXXX","id":6772485456},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":2},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"071","name":"ETHXXXXXX XXXXXXXX XXXXXXXXXX","id":6772485549},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"072","name":"GulX XXX X.X.X. (X)","id":6772485550},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"075","name":"IBEXXX","id":6772485553},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"076","name":"MidXXX XXXX XXXXXXXX XXXXXXXX","id":6772485554},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"077","name":"EgyXXXXX","id":6772485555},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"080","name":"LOT XXXXXX XXXXXXXX","id":6772485648},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"082","name":"BruXXXXX XXXXXXXX","id":6772485650},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"086","name":"Air XXX XXXXXXX XXXXXXX","id":6772485654},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4}]
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - [{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"001","name":"AMEXXXXX XXXXXXXX XÏ","id":6772484849},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":3},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"010","name":"DNYANESHAIRLINE","id":6772484948},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"014","name":"Air XXXXXX","id":6772484952},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"030","name":"VueXXXX","id":6772485148},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"031","name":"PreXXXXXX XXX","id":6772485149},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"044","name":"AerXXXXXXX XXXXXXXXXX X.X.","id":6772485252},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"045","name":"LATXX XXXXXXXX","id":6772485253},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"050","name":"OlyXXXX XXX","id":6772485348},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"053","name":"Aer XXXXXX XXXXXXX","id":6772485351},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"061","name":"Air XXXXXXXXXX XXXXXXX","id":6772485449},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"066","name":"OnuX XXX XXXXXXXXXXX X.X.","id":6772485454},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"068","name":"LAM - XXXXXX XXXXXX XX XXXXXXXXXX","id":6772485456},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":2},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"071","name":"ETHXXXXXX XXXXXXXX XXXXXXXXXX","id":6772485549},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"072","name":"GulX XXX X.X.X. (X)","id":6772485550},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"075","name":"IBEXXX","id":6772485553},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"076","name":"MidXXX XXXX XXXXXXXX XXXXXXXX","id":6772485554},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"077","name":"EgyXXXXX","id":6772485555},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"080","name":"LOT XXXXXX XXXXXXXX","id":6772485648},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"082","name":"BruXXXXX XXXXXXXX","id":6772485650},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"086","name":"Air XXX XXXXXXX XXXXXXX","id":6772485654},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4}]
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - logInfo(getTestCaseVariables().get("URL_QAMIG")): https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/variable-remittance/frequencies?bspId=6772&sort=agent.name,ASC
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/variable-remittance/frequencies?bspId=6772&sort=agent.name,ASC
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - responseQAMIGValue = getTestCaseVariables().get("responseQAMIG"): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - logInfo(sortedQAMIG): [{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"010","name":"DNYANESHAIRLINE","id":6772484948},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"014","name":"Air XXXXXX","id":6772484952},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"030","name":"VueXXXX","id":6772485148},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"031","name":"PreXXXXXX XXX","id":6772485149},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"044","name":"AerXXXXXXX XXXXXXXXXX X.X.","id":6772485252},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"045","name":"LATXX XXXXXXXX","id":6772485253},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"050","name":"OlyXXXX XXX","id":6772485348},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"053","name":"Aer XXXXXX XXXXXXX","id":6772485351},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"061","name":"Air XXXXXXXXXX XXXXXXX","id":6772485449},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"066","name":"OnuX XXX XXXXXXXXXXX X.X.","id":6772485454},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"068","name":"LAM - XXXXXX XXXXXX XX XXXXXXXXXX","id":6772485456},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":2},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"071","name":"ETHXXXXXX XXXXXXXX XXXXXXXXXX","id":6772485549},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"072","name":"GulX XXX X.X.X. (X)","id":6772485550},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"075","name":"IBEXXX","id":6772485553},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"076","name":"MidXXX XXXX XXXXXXXX XXXXXXXX","id":6772485554},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"077","name":"EgyXXXXX","id":6772485555},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"080","name":"LOT XXXXXX XXXXXXXX","id":6772485648},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"082","name":"BruXXXXX XXXXXXXX","id":6772485650},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"086","name":"Air XXX XXXXXXX XXXXXXX","id":6772485654},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"001","name":"AMEXXXXX XXXXXXXX XÏ","id":6772484849},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":3}]
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - [{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"010","name":"DNYANESHAIRLINE","id":6772484948},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"014","name":"Air XXXXXX","id":6772484952},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"030","name":"VueXXXX","id":6772485148},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"031","name":"PreXXXXXX XXX","id":6772485149},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"044","name":"AerXXXXXXX XXXXXXXXXX X.X.","id":6772485252},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"045","name":"LATXX XXXXXXXX","id":6772485253},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"050","name":"OlyXXXX XXX","id":6772485348},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"053","name":"Aer XXXXXX XXXXXXX","id":6772485351},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"061","name":"Air XXXXXXXXXX XXXXXXX","id":6772485449},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"066","name":"OnuX XXX XXXXXXXXXXX X.X.","id":6772485454},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"068","name":"LAM - XXXXXX XXXXXX XX XXXXXXXXXX","id":6772485456},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":2},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"071","name":"ETHXXXXXX XXXXXXXX XXXXXXXXXX","id":6772485549},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"072","name":"GulX XXX X.X.X. (X)","id":6772485550},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"075","name":"IBEXXX","id":6772485553},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"076","name":"MidXXX XXXX XXXXXXXX XXXXXXXX","id":6772485554},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"077","name":"EgyXXXXX","id":6772485555},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"080","name":"LOT XXXXXX XXXXXXXX","id":6772485648},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"082","name":"BruXXXXX XXXXXXXX","id":6772485650},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"086","name":"Air XXX XXXXXXX XXXXXXX","id":6772485654},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":4},{"agent":{"iataCode":"0230010","name":"ARANZAZU","id":67720230010},"airline":{"iataCode":"001","name":"AMEXXXXX XXXXXXXX XÏ","id":6772484849},"bsp":{"isoCountryCode":"CH","name":"SWIT","id":6772},"frequency":3}]
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - missingIDsList = getTestCaseVariables().get("missing_IDs"): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - missingIDsList.each({ java.lang.Object id -> ... }): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList = getTestCaseVariables().get("fieldsToBeIgnoredList"): null
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList.each({ java.lang.Object fieldName -> ... }): Field Ignored -> id
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - Field Ignored -> id
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - if (fieldsToBeIgnoredList.size() > 0): reporting.ExtentReporting.logListData is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logListData("Ignored Nodes ", fieldsToBeIgnoredList): reporting.ExtentReporting.logListData is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - reporting.ExtentReporting.logListData is PASSED
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - if (extentFlag.equals("y")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+11-10-2024T18:10:00 - [TEST_STEP][PASSED] - reporting.ExtentReporting.endTest(): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+11-10-2024T18:10:00 - [MESSAGE][PASSED] - reporting.ExtentReporting.endTest is PASSED
+
+11-10-2024T18:10:00 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-10-2024T18:09:47 - [TEST_SUITE][PASSED] - remittance: Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FCA-56527_QueryAirlineContactInformation,,,,30-09-2024 16:17:19,30-09-2024 16:17:31,12.614s,PASSED
+,,,,,,,
+Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation,,airline-contact-information,"getQuery,airlineContactInfo,getAirlineContactInfo",30-09-2024 16:17:19,30-09-2024 16:17:31,12.022s,PASSED
+Start listener action : Before,,,,30-09-2024 16:17:21,30-09-2024 16:17:24,3.175s,PASSED
+"if (flag == ""Y"")",,,,30-09-2024 16:17:25,30-09-2024 16:17:30,5.452s,PASSED
+Start listener action : afterTestCase,,,,30-09-2024 16:17:30,30-09-2024 16:17:31,0.810s,PASSED

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+refund-applications,,,,10-12-2024 12:36:56,10-12-2024 12:37:19,23.154s,PASSED
+,,,,,,,
+Test Cases/Refund Management/refund-applications/refund-applications statistics/FCA-67592_RA_Statistics_are_only_for_IATA,,refund-applications,"getQuery,getStatistics",10-12-2024 12:36:56,10-12-2024 12:37:19,22.664s,PASSED
+Start listener action : Before,,,,10-12-2024 12:36:58,10-12-2024 12:37:02,3.912s,PASSED
+"if (flag == ""Y"")",,,,10-12-2024 12:37:03,10-12-2024 12:37:17,14.529s,PASSED
+Start listener action : afterTestCase,,,,10-12-2024 12:37:17,10-12-2024 12:37:19,1.380s,PASSED

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+airline-configuration-variable-remittance,,,,13-11-2024 14:16:51,13-11-2024 14:17:09,17.156s,FAILED
+,,,,,,,
+Test Cases/Variable_Remittance/airline-configuration--variable-remittance/FCA_12935_ReadDescriptorsAirlineConfigurationVariableRemittance,,"Read Descriptors for Airline Configuration for Variable Remittance
+airline-configuration-variable-remittance","getQuery,airlineConfigVR",13-11-2024 14:16:52,13-11-2024 14:17:04,11.835s,FAILED
+Start listener action : Before,,,,13-11-2024 14:16:54,13-11-2024 14:16:59,4.565s,PASSED
+"if (flag == ""Y"")",,,,13-11-2024 14:17:00,13-11-2024 14:17:03,3.252s,FAILED
+Start listener action : afterTestCase,,,,13-11-2024 14:17:03,13-11-2024 14:17:04,1.047s,FAILED
+,,,,,,,
+Test Cases/Variable_Remittance/airline-configuration--variable-remittance/FCA_12950_ReadAirlineConfigurationVariableRemittance,,"Read Airline Configuration for Variable Remittance
+airline-configuration-variable-remittance","getQuery,airlineConfigVR",13-11-2024 14:17:04,13-11-2024 14:17:07,2.416s,FAILED
+Start listener action : Before,,,,13-11-2024 14:17:05,13-11-2024 14:17:05,0.011s,PASSED
+"if (flag == ""Y"")",,,,13-11-2024 14:17:06,13-11-2024 14:17:06,0.286s,FAILED
+Start listener action : afterTestCase,,,,13-11-2024 14:17:06,13-11-2024 14:17:07,0.085s,FAILED
+,,,,,,,
+Test Cases/Variable_Remittance/airline-configuration--variable-remittance/FCA_12965_DescriptorsAirlineConfigurationVariableRemittanceSpanish,,"Descriptors for Airline Configuration for Variable Remittance in Spanish
+airline-configuration-variable-remittance","getQuery,airlineConfigVR",13-11-2024 14:17:07,13-11-2024 14:17:09,1.974s,FAILED
+Start listener action : Before,,,,13-11-2024 14:17:07,13-11-2024 14:17:07,0.006s,PASSED
+"if (flag == ""Y"")",,,,13-11-2024 14:17:08,13-11-2024 14:17:08,0.490s,FAILED
+Start listener action : afterTestCase,,,,13-11-2024 14:17:08,13-11-2024 14:17:09,0.079s,FAILED

@@ -1,0 +1,28 @@
+stages:
+  - test
+
+variables:
+  # Specify Katalon Studio project directory. By default, it is stored under the root project folder.
+  #KATALON_TEST_SUITE: "TrialTS"
+  KATALON_PROJECT_DIR: $CI_PROJECT_DIR
+  KATALON_API_KEY: $CI_KATALON_API_KEY
+  #TEST_SUITE: "TrialTS"
+  TEST_SUITE: "GetQueryTestSuite"
+  #AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+  #AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+
+qa-test:
+  image: katalonstudio/katalon
+  stage: test
+  tags:
+    - nfe-test-automation
+  script:
+    - echo $PROFILE_NAME
+    - echo $TEST_SUITE
+    - echo $KATALON_PROJECT_DIR
+    - katalonc -noSplash -runMode=console -projectPath=$KATALON_PROJECT_DIR -retry=0 -testSuitePath="Test Suites/"$TEST_SUITE  -browserType="Web Service" -executionProfile="DataMig" -apiKey="a4841ed9-1dcd-4c8c-b3c9-7f30d712c8d2" -orgID=645562 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
+    
+  artifacts:
+    when: always
+    paths:
+      - Reports/*

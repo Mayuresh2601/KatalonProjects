@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+card-consents,,,,07-10-2024 14:04:57,07-10-2024 14:05:07,10.351s,FAILED
+,,,,,,,
+Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id,,TIP Management - GET TIP Card Consents,"getQuery,getCardConsents,getCardConsentsById",07-10-2024 14:04:57,07-10-2024 14:05:07,9.880s,FAILED
+Start listener action : Before,,,,07-10-2024 14:04:59,07-10-2024 14:05:01,2.852s,PASSED
+"if (flag == ""Y"")",,,,07-10-2024 14:05:02,07-10-2024 14:05:06,3.989s,FAILED
+Start listener action : afterTestCase,,,,07-10-2024 14:05:06,07-10-2024 14:05:07,0.779s,FAILED

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>DataMig</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://auth.apps.qa.okd4.nfe.projects.nonprod.itd.farelogix.com'</initValue>
+      <name>keycloak</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'auth/realms/NFE/protocol/openid-connect/token'</initValue>
+      <name>authBasePath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://gateway-gateway.apps.qa.okd4.nfe.projects.nonprod.itd.farelogix.com'</initValue>
+      <name>baseURL_QA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://vwtwebnfe12/nfe-test'</initValue>
+      <name>baseURL_QA_old</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'api'</initValue>
+      <name>basePathAPI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com'</initValue>
+      <name>baseURL_QA_MIG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'nfe'</initValue>
+      <name>basePathNFE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'password'</initValue>
+      <name>grant_type</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bsplink-nfe-console'</initValue>
+      <name>client_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'d48db56d-2515-4550-9a2c-69af6fde0f54'</initValue>
+      <name>client_secret</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['nfe', 'api']</initValue>
+      <name>basePath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'./files/'</initValue>
+      <name>downloadPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://auth.apps.qa.okd4.nfe.projects.nonprod.itd.farelogix.com'</initValue>
+      <name>keycloakQA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://auth.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com'</initValue>
+      <name>keycloakQAMIG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 1)</initValue>
+      <name>iataTokenQA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 1)</initValue>
+      <name>iataTokenQAMIG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 2)</initValue>
+      <name>airlineTokenQA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 2)</initValue>
+      <name>airlineTokenQAMIG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Data_Migration'</initValue>
+      <name>author</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'y'</initValue>
+      <name>extentFlag</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 4)</initValue>
+      <name>airline952_73783_QA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 4)</initValue>
+      <name>airline952_73783_QAMIG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 5)</initValue>
+      <name>airlineQA73782113</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 5)</initValue>
+      <name>airlineQAMIG73782113</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 6)</initValue>
+      <name>iataQA_CH</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 6)</initValue>
+      <name>iataQAMIG_CH</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 7)</initValue>
+      <name>airline250QA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 7)</initValue>
+      <name>airline250QAMIG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 8)</initValue>
+      <name>airline695QA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 8)</initValue>
+      <name>airline695QAMIG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 9)</initValue>
+      <name>dpcIN_QA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 9)</initValue>
+      <name>dpcIN_QAMIG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 10)</initValue>
+      <name>airline450QA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 10)</initValue>
+      <name>airline450QAMIG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 11)</initValue>
+      <name>agent73786127QA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 11)</initValue>
+      <name>agent73786127QAMIG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 12)</initValue>
+      <name>airlineQA_001_67723190</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 12)</initValue>
+      <name>airlineQAMIG_001_67723190</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 13)</initValue>
+      <name>airlineQA_026_6772279</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 13)</initValue>
+      <name>airlineQAMIG_026_6772279</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 14)</initValue>
+      <name>airlineQA_157_686910</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 14)</initValue>
+      <name>airlineQAMIG_157_686910</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 16)</initValue>
+      <name>agent0230010QA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 16)</initValue>
+      <name>agent0230010QAMIG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(6, 17)</initValue>
+      <name>airlineQA_191_67724465</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Common/Users').getValue(7, 17)</initValue>
+      <name>airlineQAMIG_191_67724465</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ta,,,,04-10-2024 15:57:09,04-10-2024 15:57:29,19.419s,PASSED
+,,,,,,,
+Test Cases/Ticketing_Authority/ta/FCA-14223_QueryTicketingAuthorityFilter,,Airline IP Addresses for Access Control,"getQuery,getTA,getTAagentgroups,getTAs",04-10-2024 15:57:10,04-10-2024 15:57:27,17.188s,PASSED
+Start listener action : Before,,,,04-10-2024 15:57:12,04-10-2024 15:57:15,3.342s,PASSED
+"if (flag == ""Y"")",,,,04-10-2024 15:57:16,04-10-2024 15:57:26,10.111s,PASSED
+Start listener action : afterTestCase,,,,04-10-2024 15:57:26,04-10-2024 15:57:27,0.816s,PASSED
+,,,,,,,
+Test Cases/Ticketing_Authority/ta/FCA-15910_QueryActiveAgentGroupsPerBSP,,Airline IP Addresses for Access Control,"getQuery,getTA,getTAagentgroups,getTAs",04-10-2024 15:57:27,04-10-2024 15:57:29,1.660s,PASSED
+Start listener action : Before,,,,04-10-2024 15:57:28,04-10-2024 15:57:28,0.007s,PASSED
+"if (flag == ""Y"")",,,,04-10-2024 15:57:28,04-10-2024 15:57:29,1.011s,PASSED
+Start listener action : afterTestCase,,,,04-10-2024 15:57:29,04-10-2024 15:57:29,0.042s,PASSED

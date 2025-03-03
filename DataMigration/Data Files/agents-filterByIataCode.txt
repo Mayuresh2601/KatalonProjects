@@ -1,0 +1,21 @@
+{
+    "filterBy": [
+        {
+            "joinRequired": true,
+            "attribute": "iataCode",
+            "operation": "in",
+            "attributeValue": "0200000"
+        }
+    ],
+    "sortBy": [
+        {
+            "joinRequired": true,
+            "attribute": "iataCode",
+            "sortType": "asc"
+        }
+    ],
+    "paginateBy": {
+        "page": 0,
+        "size": 20
+    }
+}

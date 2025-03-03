@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+tip-global-iata-configuration,,,,03-12-2024 19:21:51,03-12-2024 19:22:04,12.880s,FAILED
+,,,,,,,
+Test Cases/TIP_Management/tip-global-iata-configuration/FCA-16880_GET TIP Global IATA Configuration,,TIP Global IATA Configuration,"getQuery,tip-global-iata-configuration",03-12-2024 19:21:52,03-12-2024 19:22:04,12.384s,FAILED
+Start listener action : Before,,,,03-12-2024 19:21:53,03-12-2024 19:21:57,3.193s,PASSED
+"if (flag == ""Y"")",,,,03-12-2024 19:21:57,03-12-2024 19:22:03,5.771s,FAILED
+Start listener action : afterTestCase,,,,03-12-2024 19:22:03,03-12-2024 19:22:04,0.875s,FAILED

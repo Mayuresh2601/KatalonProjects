@@ -1,0 +1,1791 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>FCA-15433</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">FCA-15433</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sep 20, 2024 11:56:28 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Data_Migration</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">ExtentTest</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author="Data_Migration"
+          tag="ExtentTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Cases/Ticketing_Authority/ta/FCA-15433_TicketingAuthorityHistoryQuery</p>
+            <p class="text-sm">
+              <span>11:56:30 am</span> / <span>00:00:08:131</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test Cases/Ticketing_Authority/ta/FCA-15433_TicketingAuthorityHistoryQuery</h5>
+<span class='badge badge-success'>09.20.2024 11:56:30 am</span>
+<span class='badge badge-danger'>09.20.2024 11:56:38 am</span>
+<span class='badge badge-default'>00:00:08:131</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Data_Migration</span>
+<span class="badge badge-pill badge-default">ExtentTest</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:37 am</td>
+        <td>
+          <span class='badge white-text indigo'>URL_QA</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>https://gateway-gateway.apps.qa.okd4.nfe.projects.nonprod.itd.farelogix.com/api/ta-management/tas?page=0&size=20&ticketingAuthority=true&airlineCode=006</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text indigo'>URL_QAMIG</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/ta-management/tas?page=0&size=20&ticketingAuthority=true&airlineCode=006</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text teal'>QA Response</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>{"pageNumber":0,"pageSize":20,"total":500,"records":[{"id":"67724848542830001","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67722830001,"iataCode":"2830001","name":"NAME","address":"ADD","city":"ADD","status":"Active"}},{"id":"67724848544620986","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67724620986,"iataCode":"4620986","name":"JOJX XXXXXX","address":"LANXXXXXXXX","city":"Vaduz","status":"Active"}},{"id":"67724848547777772","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67727777772,"iataCode":"7777772","name":"SDSAD","address":"SDFSF","city":"SDDSF","status":"Active"}},{"id":"67724848547777773","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67727777773,"iataCode":"7777773","name":"SASAD","address":"SDSAD","city":"SDSD","status":"Active"}},{"id":"67724848547777774","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67727777774,"iataCode":"7777774","name":"SDFDSFDSF","address":"SDFSF","city":"SDFDSFS","status":"Active"}},{"id":"67724848547777775","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67727777775,"iataCode":"7777775","name":"DSFDSFD","address":"SDFDS","city":"SDFDSF","status":"Active"}},{"id":"67724848548120000","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120000,"iataCode":"8120000","name":"BSP XXXXXXXXXXX XXXX","address":"","city":"GENEVA","status":"Non Active"}},{"id":"67724848548120002","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120002,"iataCode":"8120002","name":"AGRXX XXXXXX","address":"BleXXXXXXXX 99","city":"Zurich","status":"Active"}},{"id":"67724848548120004","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120004,"iataCode":"8120004","name":"MICXXXXXXX","address":"TUNXXX 99","city":"Lausanne","status":"Active"}},{"id":"67724848548120012","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120012,"iataCode":"8120012","name":"ATG XXXXXXXXXXX","address":"VIA XX XXXXX 9","city":"LUGANO","status":"Active"}},{"id":"67724848548120013","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120013,"iataCode":"8120013","name":"DELXX XXXXXXX","address":"QUAX XX XXXXXX 99","city":"GENEVA","status":"Active"}},{"id":"67724848548120017","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120017,"iataCode":"8120017","name":"MICXXXXXXX","address":"NEUX XXXX 9","city":"Zurich","status":"Active"}},{"id":"67724848548120019","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120019,"iataCode":"8120019","name":"KUOXX XXXXXX","address":"NEUX XXXX 9","city":"Zurich","status":"Active"}},{"id":"67724848548120022","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120022,"iataCode":"8120022","name":"REIXXXXXXX XXXXXXXXX XX XXXX","address":"QUAXXXXXXXXXX 99","city":"Chur","status":"Active"}},{"id":"67724848548120023","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120023,"iataCode":"8120023","name":"TUI XXXXXX XX XXXXXXX","address":"C/O XXXXX XXXXXXX 99, XXX XX","city":"GENEVA","status":"Active"}},{"id":"67724848548120024","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120024,"iataCode":"8120024","name":"RAPXXX XXX XXXXXX","address":"EUCXXXXXXXX XXXXXX XXXXX XX","city":"GENEVA","status":"Active"}},{"id":"67724848548120025","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120025,"iataCode":"8120025","name":"CWT","address":"9 RXXXX XX XXXXX XXXXXX","city":"NYON","status":"Active"}},{"id":"67724848548120028","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120028,"iataCode":"8120028","name":"COSX XXXXXX XXX","address":"FaeXXXXXXXXXXX 9","city":"Zurich","status":"Active"}},{"id":"67724848548120030","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120030,"iataCode":"8120030","name":"CWT - XXXXXXXXXXXXXXXXXX X.X.","address":"JOSXXXXXXXXX 999","city":"Zurich","status":"Active"}},{"id":"67724848548120033","ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120033,"iataCode":"8120033","name":"HELXXXXX XXXXXX XX","address":"ST XXXXXXXXXXXXX 99","city":"Gossau","status":"Active"}}]}</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text teal'>QAMIG Response</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>{"pageNumber":0,"pageSize":20,"total":492,"records":[{"id":928757,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67722830001,"iataCode":"2830001","name":"NAME","address":"ADD","city":"ADD","status":"Active"}},{"id":928758,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67724620986,"iataCode":"4620986","name":"JOJX XXXXXX","address":"LANXXXXXXXX","city":"Vaduz","status":"Active"}},{"id":928759,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67727777772,"iataCode":"7777772","name":"SDSAD","address":"SDFSF","city":"SDDSF","status":"Active"}},{"id":928760,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67727777773,"iataCode":"7777773","name":"SASAD","address":"SDSAD","city":"SDSD","status":"Active"}},{"id":928761,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67727777774,"iataCode":"7777774","name":"SDFDSFDSF","address":"SDFSF","city":"SDFDSFS","status":"Active"}},{"id":928762,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67727777775,"iataCode":"7777775","name":"DSFDSFD","address":"SDFDS","city":"SDFDSF","status":"Active"}},{"id":928764,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120002,"iataCode":"8120002","name":"AGRXX XXXXXX","address":"BleXXXXXXXX 99","city":"Zurich","status":"Active"}},{"id":928765,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120004,"iataCode":"8120004","name":"MICXXXXXXX","address":"TUNXXX 99","city":"Lausanne","status":"Active"}},{"id":928766,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120012,"iataCode":"8120012","name":"ATG XXXXXXXXXXX","address":"VIA XX XXXXX 9","city":"LUGANO","status":"Active"}},{"id":928767,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120013,"iataCode":"8120013","name":"DELXX XXXXXXX","address":"QUAX XX XXXXXX 99","city":"GENEVA","status":"Active"}},{"id":928768,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120017,"iataCode":"8120017","name":"MICXXXXXXX","address":"NEUX XXXX 9","city":"Zurich","status":"Active"}},{"id":928769,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120019,"iataCode":"8120019","name":"KUOXX XXXXXX","address":"NEUX XXXX 9","city":"Zurich","status":"Active"}},{"id":928770,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120022,"iataCode":"8120022","name":"REIXXXXXXX XXXXXXXXX XX XXXX","address":"QUAXXXXXXXXXX 99","city":"Chur","status":"Active"}},{"id":928771,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120023,"iataCode":"8120023","name":"TUI XXXXXX XX XXXXXXX","address":"C/O XXXXX XXXXXXX 99, XXX XX","city":"GENEVA","status":"Active"}},{"id":928772,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120024,"iataCode":"8120024","name":"RAPXXX XXX XXXXXX","address":"EUCXXXXXXXX XXXXXX XXXXX XX","city":"GENEVA","status":"Active"}},{"id":928773,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120025,"iataCode":"8120025","name":"CWT","address":"9 RXXXX XX XXXXX XXXXXX","city":"NYON","status":"Active"}},{"id":928774,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120028,"iataCode":"8120028","name":"COSX XXXXXX XXX","address":"FaeXXXXXXXXXXX 9","city":"Zurich","status":"Active"}},{"id":928775,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120030,"iataCode":"8120030","name":"CWT - XXXXXXXXXXXXXXXXXX X.X.","address":"JOSXXXXXXXXX 999","city":"Zurich","status":"Active"}},{"id":928776,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120033,"iataCode":"8120033","name":"HELXXXXX XXXXXX XX","address":"ST XXXXXXXXXXXXX 99","city":"Gossau","status":"Active"}},{"id":928777,"ticketingAuthority":true,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484854,"iataCode":"006","abrev":"DL","name":"DelXX XXX XXXXX XXX."},"agent":{"id":67728120034,"iataCode":"8120034","name":"SPEXXXX XXXXX","address":"FRIXXXXXXXXXXXXXXX 99","city":"Zurich","status":"Active"}}]}</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [10].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> QUAX XX XXXXXX 99 | Value from QAMIG -> NEUX XXXX 9</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [7].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120002 | Value from QAMIG -> 67728120004</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [9].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120012 | Value from QAMIG -> 8120013</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [15].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> EUCXXXXXXXX XXXXXX XXXXX XX | Value from QAMIG -> 9 RXXXX XX XXXXX XXXXXX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [15].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120024 | Value from QAMIG -> 8120025</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [16].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120025 | Value from QAMIG -> 67728120028</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [6].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120000 | Value from QAMIG -> 8120002</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [12].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120019 | Value from QAMIG -> 8120022</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [18].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120030 | Value from QAMIG -> 8120033</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [8].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> TUNXXX 99 | Value from QAMIG -> VIA XX XXXXX 9</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [19].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120033 | Value from QAMIG -> 67728120034</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [12].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120019 | Value from QAMIG -> 67728120022</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [12].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> NEUX XXXX 9 | Value from QAMIG -> QUAXXXXXXXXXX 99</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [16].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120025 | Value from QAMIG -> 8120028</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [18].agent.city</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> Zurich | Value from QAMIG -> Gossau</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [19].agent.city</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> Gossau | Value from QAMIG -> Zurich</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [8].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120004 | Value from QAMIG -> 67728120012</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [16].agent.city</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> NYON | Value from QAMIG -> Zurich</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [19].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120033 | Value from QAMIG -> 8120034</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [13].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120022 | Value from QAMIG -> 8120023</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [6].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> BSP XXXXXXXXXXX XXXX | Value from QAMIG -> AGRXX XXXXXX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [13].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> QUAXXXXXXXXXX 99 | Value from QAMIG -> C/O XXXXX XXXXXXX 99, XXX XX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [7].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> AGRXX XXXXXX | Value from QAMIG -> MICXXXXXXX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [8].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> MICXXXXXXX | Value from QAMIG -> ATG XXXXXXXXXXX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [6].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA ->  | Value from QAMIG -> BleXXXXXXXX 99</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [9].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> ATG XXXXXXXXXXX | Value from QAMIG -> DELXX XXXXXXX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [11].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> MICXXXXXXX | Value from QAMIG -> KUOXX XXXXXX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [10].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120013 | Value from QAMIG -> 8120017</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [12].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> KUOXX XXXXXX | Value from QAMIG -> REIXXXXXXX XXXXXXXXX XX XXXX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [14].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> C/O XXXXX XXXXXXX 99, XXX XX | Value from QAMIG -> EUCXXXXXXXX XXXXXX XXXXX XX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [13].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120022 | Value from QAMIG -> 67728120023</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [14].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> TUI XXXXXX XX XXXXXXX | Value from QAMIG -> RAPXXX XXX XXXXXX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [7].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120002 | Value from QAMIG -> 8120004</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [7].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> BleXXXXXXXX 99 | Value from QAMIG -> TUNXXX 99</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [13].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> REIXXXXXXX XXXXXXXXX XX XXXX | Value from QAMIG -> TUI XXXXXX XX XXXXXXX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [14].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120023 | Value from QAMIG -> 67728120024</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [16].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> CWT | Value from QAMIG -> COSX XXXXXX XXX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [6].agent.city</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> GENEVA | Value from QAMIG -> Zurich</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [7].agent.city</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> Zurich | Value from QAMIG -> Lausanne</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [15].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> RAPXXX XXX XXXXXX | Value from QAMIG -> CWT</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [19].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> HELXXXXX XXXXXX XX | Value from QAMIG -> SPEXXXX XXXXX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [8].agent.city</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> Lausanne | Value from QAMIG -> LUGANO</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [10].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> DELXX XXXXXXX | Value from QAMIG -> MICXXXXXXX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [18].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> CWT - XXXXXXXXXXXXXXXXXX X.X. | Value from QAMIG -> HELXXXXX XXXXXX XX</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [6].agent.status</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> Non Active | Value from QAMIG -> Active</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [9].agent.city</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> LUGANO | Value from QAMIG -> GENEVA</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [17].agent.name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> COSX XXXXXX XXX | Value from QAMIG -> CWT - XXXXXXXXXXXXXXXXXX X.X.</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [9].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120012 | Value from QAMIG -> 67728120013</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [10].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120013 | Value from QAMIG -> 67728120017</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [16].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 9 RXXXX XX XXXXX XXXXXX | Value from QAMIG -> FaeXXXXXXXXXXX 9</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > total</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 500 | Value from QAMIG -> 492</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [14].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120023 | Value from QAMIG -> 8120024</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [12].agent.city</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> Zurich | Value from QAMIG -> Chur</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [13].agent.city</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> Chur | Value from QAMIG -> GENEVA</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [8].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120004 | Value from QAMIG -> 8120012</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [17].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120028 | Value from QAMIG -> 67728120030</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [9].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> VIA XX XXXXX 9 | Value from QAMIG -> QUAX XX XXXXXX 99</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [15].agent.city</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> GENEVA | Value from QAMIG -> NYON</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [17].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120028 | Value from QAMIG -> 8120030</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [11].agent.iataCode</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 8120017 | Value from QAMIG -> 8120019</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [15].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120024 | Value from QAMIG -> 67728120025</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [17].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> FaeXXXXXXXXXXX 9 | Value from QAMIG -> JOSXXXXXXXXX 999</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [10].agent.city</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> GENEVA | Value from QAMIG -> Zurich</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [18].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120030 | Value from QAMIG -> 67728120033</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [11].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120017 | Value from QAMIG -> 67728120019</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [19].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> ST XXXXXXXXXXXXX 99 | Value from QAMIG -> FRIXXXXXXXXXXXXXXX 99</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [18].agent.address</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> JOSXXXXXXXXX 999 | Value from QAMIG -> ST XXXXXXXXXXXXX 99</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <span class='badge white-text red'>Value mismatched for Key > [6].agent.id</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          <div class='row'>
+ <div class='col-md-12'>
+  <textarea readonly class='code-block'>Value from QA -> 67728120000 | Value from QAMIG -> 67728120002</textarea>
+ </div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:56:38 am</td>
+        <td>
+          Test Cases/Ticketing_Authority/ta/FCA-15433_TicketingAuthorityHistoryQuery FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Test Case FAILED!! Open After Test Case Step to see the Failed Fields
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at FCA-15433_TicketingAuthorityHistoryQuery.run(FCA-15433_TicketingAuthorityHistoryQuery:190)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726813579597.run(TempTestSuite1726813579597.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">ExtentTest</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>ExtentTest</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:56:30 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Test Cases/Ticketing_Authority/ta/FCA-15433_TicketingAuthorityHistoryQuery</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">Data_Migration</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Data_Migration</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:56:30 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Test Cases/Ticketing_Authority/ta/FCA-15433_TicketingAuthorityHistoryQuery</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sep 20, 2024 11:56:28 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sep 20, 2024 11:56:38 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>1</b> events failed,
+<b data-tooltip='%'>144</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Test Cases/Ticketing_Authority/ta/FCA-15433_TicketingAuthorityHistoryQuery":8.131
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Data_Migration</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>ExtentTest</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 1,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 144
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

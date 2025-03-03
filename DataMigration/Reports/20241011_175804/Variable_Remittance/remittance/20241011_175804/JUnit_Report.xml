@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="remittance" time="12.119" tests="1" failures="0" errors="1">
+   <testsuite name="remittance" tests="1" failures="0" errors="1" time="12.119" skipped="0" timestamp="11-10-2024T17:58:10" hostname="Mayuresh.Sonar - CCE1019.accelya.local" id="Test Suites/Variable_Remittance/remittance">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mayuresh.sonar\\KatalonStudio\\DataMigration\\NFE-API-automationK\\Reports\\20241011_175804\\Variable_Remittance\\remittance\\20241011_175804"/>
+         <property name="logFiles" value="C:\\Users\\mayuresh.sonar\\KatalonStudio\\DataMigration\\NFE-API-automationK\\Reports\\20241011_175804\\Variable_Remittance\\remittance\\20241011_175804\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mayuresh.Sonar - CCE1019.accelya.local"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.4.212"/>
+      </properties>
+      <testcase name="Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents" time="11.468" classname="Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents" status="ERROR">
+         <error type="ERROR" message="Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents FAILED.&#xa;Reason:&#xa;java.lang.NullPointerException: Cannot invoke method compareTo() on null object&#xa;	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy:204)&#xa;	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy)&#xa;	at compare.CompareJsonResponse.sortJSONArrayAsc(CompareJsonResponse.groovy:194)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at Script1727281897604$_run_closure1.doCall(Script1727281897604.groovy:157)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at FCA-16034_QueryRemittanceSettingsForAgents.run(FCA-16034_QueryRemittanceSettingsForAgents:91)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1728649684195.run(TempTestSuite1728649684195.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[11-10-2024T17:58:11 - [TEST_CASE][ERROR] - Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents: Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method compareTo() on null object
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy:204)
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy)
+	at compare.CompareJsonResponse.sortJSONArrayAsc(CompareJsonResponse.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1727281897604$_run_closure1.doCall(Script1727281897604.groovy:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-16034_QueryRemittanceSettingsForAgents.run(FCA-16034_QueryRemittanceSettingsForAgents:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728649684195.run(TempTestSuite1728649684195.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+11-10-2024T17:58:13 - [TEST_STEP][PASSED] - Start listener action : Before: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)'
+
+11-10-2024T17:58:13 - [TEST_STEP][PASSED] - tc_description = testCaseContext.getMessage(): null
+
+11-10-2024T17:58:13 - [TEST_STEP][PASSED] - tcName = testCaseId: null
+
+11-10-2024T17:58:13 - [TEST_STEP][PASSED] - println(tcName): null
+
+11-10-2024T17:58:13 - [TEST_STEP][PASSED] - reporting.ExtentReporting.startTest(reportPath, testSuiteName, tcName, tc_description, author, "Extent Test", reportFile): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:13 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Checking test data id
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+11-10-2024T17:58:14 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+11-10-2024T17:58:16 - [MESSAGE][PASSED] - reporting.ExtentReporting.startTest is PASSED
+
+11-10-2024T17:58:16 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+11-10-2024T17:58:17 - [TEST_STEP][ERROR] - if (flag == "Y"): Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method compareTo() on null object
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Script1727281897604$_run_closure1.doCall(Script1727281897604.groovy:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-16034_QueryRemittanceSettingsForAgents.run(FCA-16034_QueryRemittanceSettingsForAgents:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728649684195.run(TempTestSuite1728649684195.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.NullPointerException: Cannot invoke method compareTo() on null object
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy:204)
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy)
+	at compare.CompareJsonResponse.sortJSONArrayAsc(CompareJsonResponse.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 20 more
+
+
+11-10-2024T17:58:17 - [TEST_STEP][PASSED] - path = endPoint: null
+
+11-10-2024T17:58:17 - [TEST_STEP][PASSED] - URL_QA = baseURL_QA + "/" + basePathAPI + "/" + path: null
+
+11-10-2024T17:58:17 - [TEST_STEP][PASSED] - queryResponseQA = sendRequest(findTestObject("CommonRequest/GET_Method_QA", ["token":agent0230010QA, "endPoint":path])): Send request successfully
+
+11-10-2024T17:58:17 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/CommonRequest/GET_Method_QA'
+
+11-10-2024T17:58:17 - [MESSAGE][INFO] - Checking request object
+
+11-10-2024T17:58:20 - [MESSAGE][INFO] - HAR: C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Reports\20241011_175804\Variable_Remittance\remittance\20241011_175804\requests\main\0.har
+
+11-10-2024T17:58:20 - [MESSAGE][PASSED] - Send request successfully
+
+11-10-2024T17:58:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(queryResponseQA, 200): Verify response status code successfully
+
+11-10-2024T17:58:20 - [MESSAGE][INFO] - Checking response object
+
+11-10-2024T17:58:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+11-10-2024T17:58:20 - [TEST_STEP][PASSED] - responseQA = queryResponseQA.getResponseBodyContent(): null
+
+11-10-2024T17:58:20 - [TEST_STEP][PASSED] - URL_QAMIG = baseURL_QA_MIG + "/" + basePathAPI + "/" + path: null
+
+11-10-2024T17:58:20 - [TEST_STEP][PASSED] - queryResponseQAMIG = sendRequest(findTestObject("CommonRequest/GET_Method_QA_MIG", ["token":agent0230010QAMIG, "endPoint":path])): Send request successfully
+
+11-10-2024T17:58:20 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/CommonRequest/GET_Method_QA_MIG'
+
+11-10-2024T17:58:20 - [MESSAGE][INFO] - Checking request object
+
+11-10-2024T17:58:21 - [MESSAGE][INFO] - HAR: C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Reports\20241011_175804\Variable_Remittance\remittance\20241011_175804\requests\main\1.har
+
+11-10-2024T17:58:21 - [MESSAGE][PASSED] - Send request successfully
+
+11-10-2024T17:58:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(queryResponseQAMIG, 200): Verify response status code successfully
+
+11-10-2024T17:58:21 - [MESSAGE][INFO] - Checking response object
+
+11-10-2024T17:58:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+11-10-2024T17:58:21 - [TEST_STEP][PASSED] - responseQAMIG = queryResponseQAMIG.getResponseBodyContent(): null
+
+11-10-2024T17:58:21 - [TEST_STEP][PASSED] - ignoreNodesList = Arrays.asList(ignoreNodes.split(",")): null
+
+11-10-2024T17:58:21 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null
+
+11-10-2024T17:58:21 - [TEST_STEP][PASSED] - responseQAObject = jsonSlurper.parseText(responseQA): null
+
+11-10-2024T17:58:21 - [TEST_STEP][PASSED] - jsonObjectQA = responseQAObject: null
+
+11-10-2024T17:58:21 - [TEST_STEP][PASSED] - responseQAMIGObject = jsonSlurper.parseText(responseQAMIG): null
+
+11-10-2024T17:58:21 - [TEST_STEP][PASSED] - jsonObjectQAMIG = responseQAMIGObject: null
+
+11-10-2024T17:58:21 - [TEST_STEP][PASSED] - comparator = compare.CompareJsonResponse.getComparator(ignoreNodes): compare.CompareJsonResponse.getComparator is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - compare.CompareJsonResponse.getComparator is PASSED
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - compare.GetDifferences.clearSetValues(): compare.GetDifferences.clearSetValues is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - compare.GetDifferences.clearSetValues is PASSED
+
+11-10-2024T17:58:22 - [TEST_STEP][ERROR] - if (jsonObjectQA.has("records") || jsonObjectQAMIG.has("records")): Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method compareTo() on null object
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Script1727281897604$_run_closure1.doCall(Script1727281897604.groovy:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-16034_QueryRemittanceSettingsForAgents.run(FCA-16034_QueryRemittanceSettingsForAgents:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728649684195.run(TempTestSuite1728649684195.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.NullPointerException: Cannot invoke method compareTo() on null object
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy:204)
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy)
+	at compare.CompareJsonResponse.sortJSONArrayAsc(CompareJsonResponse.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 20 more
+
+
+11-10-2024T17:58:22 - [TEST_STEP][ERROR] - keySet().each({ java.lang.Object key -> ... }): Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method compareTo() on null object
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Script1727281897604$_run_closure1.doCall(Script1727281897604.groovy:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-16034_QueryRemittanceSettingsForAgents.run(FCA-16034_QueryRemittanceSettingsForAgents:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728649684195.run(TempTestSuite1728649684195.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.NullPointerException: Cannot invoke method compareTo() on null object
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy:204)
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy)
+	at compare.CompareJsonResponse.sortJSONArrayAsc(CompareJsonResponse.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 20 more
+
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - compare.CompareJsonResponse.compareObjectValues is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][INFO] - failedFieldsList -> []
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - compare.GetDifferences.setDifferencesFromResult is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - compare.CompareJsonResponse.compareObjectValues is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][INFO] - failedFieldsList -> []
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - compare.GetDifferences.setDifferencesFromResult is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - common.Utility.getValueFromResponseJson is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - common.Utility.getValueFromResponseJson is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - compare.CompareJsonResponse.removeNode is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - compare.CompareJsonResponse.removeNode is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][ERROR] - Cannot invoke method compareTo() on null object
+
+11-10-2024T17:58:22 - [MESSAGE][ERROR] - Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method compareTo() on null object
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Script1727281897604$_run_closure1.doCall(Script1727281897604.groovy:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-16034_QueryRemittanceSettingsForAgents.run(FCA-16034_QueryRemittanceSettingsForAgents:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728649684195.run(TempTestSuite1728649684195.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.NullPointerException: Cannot invoke method compareTo() on null object
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy:204)
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy)
+	at compare.CompareJsonResponse.sortJSONArrayAsc(CompareJsonResponse.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 20 more
+
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+11-10-2024T17:58:22 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)'
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - logInfo(testCaseContext.getTestCaseId()): Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents
+
+11-10-2024T17:58:22 - [MESSAGE][INFO] - Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - logInfo(testCaseContext.getTestCaseStatus()): ERROR
+
+11-10-2024T17:58:22 - [MESSAGE][INFO] - ERROR
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - responseQA = getTestCaseVariables().get("responseQA"): null
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - responseQAMIG = getTestCaseVariables().get("responseQAMIG"): null
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - sortedQA = getTestCaseVariables().get("sortedRecordsQA"): null
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - sortedQAMIG = getTestCaseVariables().get("sortedRecordsQAMIG"): null
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logStringData("URL_QA", getTestCaseVariables().get("URL_QA")): reporting.ExtentReporting.logStringData is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - reporting.ExtentReporting.logStringData is PASSED
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logStringData("URL_QAMIG", getTestCaseVariables().get("URL_QAMIG")): reporting.ExtentReporting.logStringData is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - reporting.ExtentReporting.logStringData is PASSED
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logJSONData("QA Response", responseQA): reporting.ExtentReporting.logJSONData is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - reporting.ExtentReporting.logJSONData is PASSED
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logJSONData("QAMIG Response", responseQAMIG): reporting.ExtentReporting.logJSONData is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - reporting.ExtentReporting.logJSONData is PASSED
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equals("FAILED")): null
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - else if (getTestCaseStatus().equals("ERROR")): null
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - reporting.ExtentReporting.testStatus("FAIL", testCaseContext.getMessage()): reporting.ExtentReporting.testStatus is PASSED
+
+11-10-2024T17:58:22 - [MESSAGE][PASSED] - reporting.ExtentReporting.testStatus is PASSED
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - logInfo(getTestCaseVariables().get("URL_QA")): https://gateway-gateway.apps.qa.okd4.nfe.projects.nonprod.itd.farelogix.com/api/variable-remittance/frequencies
+
+11-10-2024T17:58:22 - [MESSAGE][INFO] - https://gateway-gateway.apps.qa.okd4.nfe.projects.nonprod.itd.farelogix.com/api/variable-remittance/frequencies
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - responseQAValue = getTestCaseVariables().get("responseQA"): null
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - logInfo(responseQAValue): {"pageNumber":0,"pageSize":20,"total":89,"records":[{"id":"67724848490230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484849,"iataCode":"001","name":"AMEXXXXX XXXXXXXX XÏ"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":3},{"id":"67724849480230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484948,"iataCode":"010","name":"DNYANESHAIRLINE"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724849520230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484952,"iataCode":"014","name":"Air XXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724851480230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485148,"iataCode":"030","name":"VueXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724851490230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485149,"iataCode":"031","name":"PreXXXXXX XXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724852520230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485252,"iataCode":"044","name":"AerXXXXXXX XXXXXXXXXX X.X."},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724852530230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485253,"iataCode":"045","name":"LATXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724853480230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485348,"iataCode":"050","name":"OlyXXXX XXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724853510230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485351,"iataCode":"053","name":"Aer XXXXXX XXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724854490230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485449,"iataCode":"061","name":"Air XXXXXXXXXX XXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724854540230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485454,"iataCode":"066","name":"OnuX XXX XXXXXXXXXXX X.X."},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724854560230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485456,"iataCode":"068","name":"LAM - XXXXXX XXXXXX XX XXXXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":2},{"id":"67724855490230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485549,"iataCode":"071","name":"ETHXXXXXX XXXXXXXX XXXXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724855500230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485550,"iataCode":"072","name":"GulX XXX X.X.X. (X)"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724855530230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485553,"iataCode":"075","name":"IBEXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724855540230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485554,"iataCode":"076","name":"MidXXX XXXX XXXXXXXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724855550230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485555,"iataCode":"077","name":"EgyXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724856480230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485648,"iataCode":"080","name":"LOT XXXXXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724856500230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485650,"iataCode":"082","name":"BruXXXXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724856540230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485654,"iataCode":"086","name":"Air XXX XXXXXXX XXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4}]}
+
+11-10-2024T17:58:22 - [MESSAGE][INFO] - {"pageNumber":0,"pageSize":20,"total":89,"records":[{"id":"67724848490230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484849,"iataCode":"001","name":"AMEXXXXX XXXXXXXX XÏ"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":3},{"id":"67724849480230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484948,"iataCode":"010","name":"DNYANESHAIRLINE"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724849520230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484952,"iataCode":"014","name":"Air XXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724851480230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485148,"iataCode":"030","name":"VueXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724851490230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485149,"iataCode":"031","name":"PreXXXXXX XXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724852520230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485252,"iataCode":"044","name":"AerXXXXXXX XXXXXXXXXX X.X."},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724852530230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485253,"iataCode":"045","name":"LATXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724853480230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485348,"iataCode":"050","name":"OlyXXXX XXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724853510230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485351,"iataCode":"053","name":"Aer XXXXXX XXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724854490230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485449,"iataCode":"061","name":"Air XXXXXXXXXX XXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724854540230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485454,"iataCode":"066","name":"OnuX XXX XXXXXXXXXXX X.X."},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724854560230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485456,"iataCode":"068","name":"LAM - XXXXXX XXXXXX XX XXXXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":2},{"id":"67724855490230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485549,"iataCode":"071","name":"ETHXXXXXX XXXXXXXX XXXXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724855500230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485550,"iataCode":"072","name":"GulX XXX X.X.X. (X)"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724855530230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485553,"iataCode":"075","name":"IBEXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724855540230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485554,"iataCode":"076","name":"MidXXX XXXX XXXXXXXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724855550230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485555,"iataCode":"077","name":"EgyXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724856480230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485648,"iataCode":"080","name":"LOT XXXXXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724856500230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485650,"iataCode":"082","name":"BruXXXXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":"67724856540230010","bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485654,"iataCode":"086","name":"Air XXX XXXXXXX XXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4}]}
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - logInfo(getTestCaseVariables().get("URL_QAMIG")): https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/variable-remittance/frequencies
+
+11-10-2024T17:58:22 - [MESSAGE][INFO] - https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/variable-remittance/frequencies
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - responseQAMIGValue = getTestCaseVariables().get("responseQAMIG"): null
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - logInfo(responseQAMIGValue): {"pageNumber":0,"pageSize":20,"total":89,"records":[{"id":254611,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484849,"iataCode":"001","name":"AMEXXXXX XXXXXXXX XÏ"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":3},{"id":256147,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484948,"iataCode":"010","name":"DNYANESHAIRLINE"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":256152,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484952,"iataCode":"014","name":"Air XXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":257154,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485148,"iataCode":"030","name":"VueXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":257731,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485149,"iataCode":"031","name":"PreXXXXXX XXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":258284,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485252,"iataCode":"044","name":"AerXXXXXXX XXXXXXXXXX X.X."},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":258802,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485253,"iataCode":"045","name":"LATXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":259827,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485348,"iataCode":"050","name":"OlyXXXX XXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":260352,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485351,"iataCode":"053","name":"Aer XXXXXX XXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":261824,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485449,"iataCode":"061","name":"Air XXXXXXXXXX XXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":263735,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485454,"iataCode":"066","name":"OnuX XXX XXXXXXXXXXX X.X."},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":264283,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485456,"iataCode":"068","name":"LAM - XXXXXX XXXXXX XX XXXXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":2},{"id":264832,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485549,"iataCode":"071","name":"ETHXXXXXX XXXXXXXX XXXXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":265364,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485550,"iataCode":"072","name":"GulX XXX X.X.X. (X)"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":266372,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485553,"iataCode":"075","name":"IBEXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":266923,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485554,"iataCode":"076","name":"MidXXX XXXX XXXXXXXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":267374,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485555,"iataCode":"077","name":"EgyXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":268452,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485648,"iataCode":"080","name":"LOT XXXXXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":269354,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485650,"iataCode":"082","name":"BruXXXXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":270332,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485654,"iataCode":"086","name":"Air XXX XXXXXXX XXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4}]}
+
+11-10-2024T17:58:22 - [MESSAGE][INFO] - {"pageNumber":0,"pageSize":20,"total":89,"records":[{"id":254611,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484849,"iataCode":"001","name":"AMEXXXXX XXXXXXXX XÏ"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":3},{"id":256147,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484948,"iataCode":"010","name":"DNYANESHAIRLINE"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":256152,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772484952,"iataCode":"014","name":"Air XXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":257154,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485148,"iataCode":"030","name":"VueXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":257731,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485149,"iataCode":"031","name":"PreXXXXXX XXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":258284,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485252,"iataCode":"044","name":"AerXXXXXXX XXXXXXXXXX X.X."},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":258802,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485253,"iataCode":"045","name":"LATXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":259827,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485348,"iataCode":"050","name":"OlyXXXX XXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":260352,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485351,"iataCode":"053","name":"Aer XXXXXX XXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":261824,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485449,"iataCode":"061","name":"Air XXXXXXXXXX XXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":263735,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485454,"iataCode":"066","name":"OnuX XXX XXXXXXXXXXX X.X."},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":264283,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485456,"iataCode":"068","name":"LAM - XXXXXX XXXXXX XX XXXXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":2},{"id":264832,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485549,"iataCode":"071","name":"ETHXXXXXX XXXXXXXX XXXXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":265364,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485550,"iataCode":"072","name":"GulX XXX X.X.X. (X)"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":266372,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485553,"iataCode":"075","name":"IBEXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":266923,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485554,"iataCode":"076","name":"MidXXX XXXX XXXXXXXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":267374,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485555,"iataCode":"077","name":"EgyXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":268452,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485648,"iataCode":"080","name":"LOT XXXXXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":269354,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485650,"iataCode":"082","name":"BruXXXXX XXXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4},{"id":270332,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"airline":{"id":6772485654,"iataCode":"086","name":"Air XXX XXXXXXX XXXXXXX"},"agent":{"id":67720230010,"iataCode":"0230010","name":"ARANZAZU"},"frequency":4}]}
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - missingIDsList = getTestCaseVariables().get("missing_IDs"): null
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - missingIDsList.each({ java.lang.Object id -> ... }): null
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList = getTestCaseVariables().get("fieldsToBeIgnoredList"): null
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList.each({ java.lang.Object fieldName -> ... }): null
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - if (extentFlag.equals("y")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+11-10-2024T17:58:22 - [TEST_STEP][PASSED] - reporting.ExtentReporting.endTest(): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+11-10-2024T17:58:23 - [MESSAGE][PASSED] - reporting.ExtentReporting.endTest is PASSED
+
+11-10-2024T17:58:23 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[11-10-2024T17:58:11 - [TEST_CASE][ERROR] - Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents: Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method compareTo() on null object
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy:204)
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy)
+	at compare.CompareJsonResponse.sortJSONArrayAsc(CompareJsonResponse.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1727281897604$_run_closure1.doCall(Script1727281897604.groovy:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-16034_QueryRemittanceSettingsForAgents.run(FCA-16034_QueryRemittanceSettingsForAgents:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728649684195.run(TempTestSuite1728649684195.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-10-2024T17:58:10 - [TEST_SUITE][ERROR] - remittance: Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method compareTo() on null object
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy:204)
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy)
+	at compare.CompareJsonResponse.sortJSONArrayAsc(CompareJsonResponse.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1727281897604$_run_closure1.doCall(Script1727281897604.groovy:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-16034_QueryRemittanceSettingsForAgents.run(FCA-16034_QueryRemittanceSettingsForAgents:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728649684195.run(TempTestSuite1728649684195.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[11-10-2024T17:58:10 - [TEST_SUITE][ERROR] - remittance: Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method compareTo() on null object
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy:204)
+	at compare.CompareJsonResponse$1.compare(CompareJsonResponse.groovy)
+	at compare.CompareJsonResponse.sortJSONArrayAsc(CompareJsonResponse.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1727281897604$_run_closure1.doCall(Script1727281897604.groovy:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-16034_QueryRemittanceSettingsForAgents.run(FCA-16034_QueryRemittanceSettingsForAgents:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728649684195.run(TempTestSuite1728649684195.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

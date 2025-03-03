@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>QA_MIG</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://auth.apps.qa.okd4.nfe.projects.nonprod.itd.farelogix.com'</initValue>
+      <name>keycloak</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'auth/realms/NFE/protocol/openid-connect/token'</initValue>
+      <name>authBasePath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com'</initValue>
+      <name>baseURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'password'</initValue>
+      <name>grant_type</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bsplink-nfe-console'</initValue>
+      <name>client_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'d48db56d-2515-4550-9a2c-69af6fde0f54'</initValue>
+      <name>client_secret</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['nfe', 'api']</initValue>
+      <name>basePath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'./files/'</initValue>
+      <name>downloadPath</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

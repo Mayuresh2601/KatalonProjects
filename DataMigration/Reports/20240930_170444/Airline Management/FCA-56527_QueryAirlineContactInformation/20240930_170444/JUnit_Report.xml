@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FCA-56527_QueryAirlineContactInformation" time="19.745" tests="3" failures="0" errors="0">
+   <testsuite name="FCA-56527_QueryAirlineContactInformation" tests="3" failures="0" errors="0" time="19.745" skipped="0" timestamp="30-09-2024T17:04:50" hostname="Mayuresh.Sonar - CCE1019.accelya.local" id="Test Suites/Airline Management/FCA-56527_QueryAirlineContactInformation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mayuresh.sonar\\KatalonStudio\\DataMigration\\NFE-API-automationK\\Reports\\20240930_170444\\Airline Management\\FCA-56527_QueryAirlineContactInformation\\20240930_170444"/>
+         <property name="logFiles" value="C:\\Users\\mayuresh.sonar\\KatalonStudio\\DataMigration\\NFE-API-automationK\\Reports\\20240930_170444\\Airline Management\\FCA-56527_QueryAirlineContactInformation\\20240930_170444\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mayuresh.Sonar - CCE1019.accelya.local"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.4.212"/>
+      </properties>
+      <testcase name="Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation" time="15.697" classname="Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation" status="PASSED">
+         <system-out><![CDATA[30-09-2024T17:04:51 - [TEST_CASE][PASSED] - Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation: Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation
+
+30-09-2024T17:04:53 - [TEST_STEP][PASSED] - Start listener action : Before: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)'
+
+30-09-2024T17:04:53 - [TEST_STEP][PASSED] - tc_description = testCaseContext.getMessage(): null
+
+30-09-2024T17:04:53 - [TEST_STEP][PASSED] - tcName = testCaseId: null
+
+30-09-2024T17:04:53 - [TEST_STEP][PASSED] - println(tcName): null
+
+30-09-2024T17:04:53 - [TEST_STEP][PASSED] - reporting.ExtentReporting.startTest(reportPath, testSuiteName, tcName, tc_description, author, "Extent Test", reportFile): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:53 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Checking test data id
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+30-09-2024T17:04:54 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+30-09-2024T17:04:56 - [MESSAGE][PASSED] - reporting.ExtentReporting.startTest is PASSED
+
+30-09-2024T17:04:56 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+30-09-2024T17:04:57 - [TEST_STEP][PASSED] - if (flag == "Y"): null
+
+30-09-2024T17:04:57 - [TEST_STEP][PASSED] - path = endPoint: null
+
+30-09-2024T17:04:57 - [TEST_STEP][PASSED] - URL_QA = baseURL_QA_old + "/" + basePathAPI + "/" + path: null
+
+30-09-2024T17:04:57 - [TEST_STEP][PASSED] - queryResponseQA = sendRequest(findTestObject("CommonRequest/GET_Method_QA", ["token":airlineQA_001_67723190, "endPoint":path])): Send request successfully
+
+30-09-2024T17:04:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/CommonRequest/GET_Method_QA'
+
+30-09-2024T17:04:57 - [MESSAGE][INFO] - Checking request object
+
+30-09-2024T17:05:04 - [MESSAGE][INFO] - HAR: C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Reports\20240930_170444\Airline Management\FCA-56527_QueryAirlineContactInformation\20240930_170444\requests\main\0.har
+
+30-09-2024T17:05:04 - [MESSAGE][PASSED] - Send request successfully
+
+30-09-2024T17:05:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(queryResponseQA, 200): Verify response status code successfully
+
+30-09-2024T17:05:04 - [MESSAGE][INFO] - Checking response object
+
+30-09-2024T17:05:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-09-2024T17:05:04 - [TEST_STEP][PASSED] - responseQA = queryResponseQA.getResponseBodyContent(): null
+
+30-09-2024T17:05:04 - [TEST_STEP][PASSED] - URL_QAMIG = baseURL_QA_MIG + "/" + basePathAPI + "/" + path: null
+
+30-09-2024T17:05:04 - [TEST_STEP][PASSED] - queryResponseQAMIG = sendRequest(findTestObject("CommonRequest/GET_Method_QA_MIG", ["token":airlineQAMIG_001_67723190, "endPoint":path])): Send request successfully
+
+30-09-2024T17:05:04 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/CommonRequest/GET_Method_QA_MIG'
+
+30-09-2024T17:05:04 - [MESSAGE][INFO] - Checking request object
+
+30-09-2024T17:05:05 - [MESSAGE][INFO] - HAR: C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Reports\20240930_170444\Airline Management\FCA-56527_QueryAirlineContactInformation\20240930_170444\requests\main\1.har
+
+30-09-2024T17:05:05 - [MESSAGE][PASSED] - Send request successfully
+
+30-09-2024T17:05:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(queryResponseQAMIG, 200): Verify response status code successfully
+
+30-09-2024T17:05:05 - [MESSAGE][INFO] - Checking response object
+
+30-09-2024T17:05:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-09-2024T17:05:05 - [TEST_STEP][PASSED] - responseQAMIG = queryResponseQAMIG.getResponseBodyContent(): null
+
+30-09-2024T17:05:05 - [TEST_STEP][PASSED] - ignoreNodesList = Arrays.asList(ignoreNodes.split(",")): null
+
+30-09-2024T17:05:05 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null
+
+30-09-2024T17:05:05 - [TEST_STEP][PASSED] - responseQAObject = jsonSlurper.parseText(responseQA): null
+
+30-09-2024T17:05:05 - [TEST_STEP][PASSED] - jsonObjectQA = responseQAObject: null
+
+30-09-2024T17:05:05 - [TEST_STEP][PASSED] - responseQAMIGObject = jsonSlurper.parseText(responseQAMIG): null
+
+30-09-2024T17:05:05 - [TEST_STEP][PASSED] - jsonObjectQAMIG = responseQAMIGObject: null
+
+30-09-2024T17:05:05 - [TEST_STEP][PASSED] - comparator = compare.CompareJsonResponse.getComparator(ignoreNodes): compare.CompareJsonResponse.getComparator is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - compare.CompareJsonResponse.getComparator is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - compare.GetDifferences.clearSetValues(): compare.GetDifferences.clearSetValues is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - compare.GetDifferences.clearSetValues is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - if (jsonObjectQA.has("records") || jsonObjectQAMIG.has("records")): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - else: compare.GetDifferences.setDifferencesFromResult is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - ignoreNodesList.each({ java.lang.Object node -> ... }): compare.CompareJsonResponse.removeNode is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - compare.CompareJsonResponse.removeNode is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - compare.CompareJsonResponse.removeNode is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - compareJSON = JSONCompare.compareJSON(jsonObjectQA, jsonObjectQAMIG, comparator): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - compare.GetDifferences.setDifferencesFromResult(compareJSON): compare.GetDifferences.setDifferencesFromResult is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - failedFieldsList -> []
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - compare.GetDifferences.setDifferencesFromResult is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList = ignoreNodesList: null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - failedList = new java.util.ArrayList(CustomKeywords.compare.GetDifferences.getFailedFieldsList()): compare.GetDifferences.getFailedFieldsList is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - failedFieldsList size -> 0
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - compare.GetDifferences.getFailedFieldsList is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - missingList = new java.util.ArrayList(CustomKeywords.compare.GetDifferences.getMissingFieldsList()): compare.GetDifferences.getMissingFieldsList is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - missingFieldsList size -> 0
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - compare.GetDifferences.getMissingFieldsList is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - unexpectedList = new java.util.ArrayList(CustomKeywords.compare.GetDifferences.getUnexpectedFieldsList()): compare.GetDifferences.getUnexpectedFieldsList is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - unexpectedFieldsList size -> 0
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - compare.GetDifferences.getUnexpectedFieldsList is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - if (failedList.size() > 0): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)'
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - logInfo(testCaseContext.getTestCaseId()): Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - logInfo(testCaseContext.getTestCaseStatus()): PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - responseQA = getTestCaseVariables().get("responseQA"): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - responseQAMIG = getTestCaseVariables().get("responseQAMIG"): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - sortedQA = getTestCaseVariables().get("sortedRecordsQA"): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - sortedQAMIG = getTestCaseVariables().get("sortedRecordsQAMIG"): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logStringData("URL_QA", getTestCaseVariables().get("URL_QA")): reporting.ExtentReporting.logStringData is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - reporting.ExtentReporting.logStringData is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logStringData("URL_QAMIG", getTestCaseVariables().get("URL_QAMIG")): reporting.ExtentReporting.logStringData is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - reporting.ExtentReporting.logStringData is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logJSONData("QA Response", responseQA): reporting.ExtentReporting.logJSONData is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - reporting.ExtentReporting.logJSONData is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logJSONData("QAMIG Response", responseQAMIG): reporting.ExtentReporting.logJSONData is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - reporting.ExtentReporting.logJSONData is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equals("FAILED")): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - else if (getTestCaseStatus().equals("ERROR")): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - else: reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - flag = getTestCaseVariables().get("flag"): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - if (flag.equalsIgnoreCase("N")): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - else: reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - reporting.ExtentReporting.testStatus("PASS", testCaseContext.getTestCaseId() + " Passed"): reporting.ExtentReporting.testStatus is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - reporting.ExtentReporting.testStatus is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - logInfo(getTestCaseVariables().get("URL_QA")): https://vwtwebnfe12/nfe-test/api/airline-management/airlines/6772484849/address
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - https://vwtwebnfe12/nfe-test/api/airline-management/airlines/6772484849/address
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - responseQAValue = getTestCaseVariables().get("responseQA"): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - logInfo(sortedQA): 
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - 
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - logInfo(getTestCaseVariables().get("URL_QAMIG")): https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/airline-management/airlines/6772484849/address
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/airline-management/airlines/6772484849/address
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - responseQAMIGValue = getTestCaseVariables().get("responseQAMIG"): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - logInfo(sortedQAMIG): 
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - 
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - missingIDsList = getTestCaseVariables().get("missing_IDs"): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - missingIDsList.each({ java.lang.Object id -> ... }): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList = getTestCaseVariables().get("fieldsToBeIgnoredList"): null
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList.each({ java.lang.Object fieldName -> ... }): Field Ignored -> bsp.version
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - Field Ignored -> bsp.version
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - if (fieldsToBeIgnoredList.size() > 0): reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logListData("Ignored Nodes ", fieldsToBeIgnoredList): reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - if (extentFlag.equals("y")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+30-09-2024T17:05:06 - [TEST_STEP][PASSED] - reporting.ExtentReporting.endTest(): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+30-09-2024T17:05:06 - [MESSAGE][PASSED] - reporting.ExtentReporting.endTest is PASSED
+
+30-09-2024T17:05:06 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation" time="2.018" classname="Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation" status="PASSED">
+         <system-out><![CDATA[30-09-2024T17:05:06 - [TEST_CASE][PASSED] - Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation: Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation
+
+30-09-2024T17:05:07 - [TEST_STEP][PASSED] - Start listener action : Before: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+30-09-2024T17:05:07 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)'
+
+30-09-2024T17:05:07 - [TEST_STEP][PASSED] - tc_description = testCaseContext.getMessage(): null
+
+30-09-2024T17:05:07 - [TEST_STEP][PASSED] - tcName = testCaseId: null
+
+30-09-2024T17:05:07 - [TEST_STEP][PASSED] - println(tcName): null
+
+30-09-2024T17:05:07 - [TEST_STEP][PASSED] - reporting.ExtentReporting.startTest(reportPath, testSuiteName, tcName, tc_description, author, "Extent Test", reportFile): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+30-09-2024T17:05:07 - [MESSAGE][PASSED] - reporting.ExtentReporting.startTest is PASSED
+
+30-09-2024T17:05:07 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+30-09-2024T17:05:07 - [TEST_STEP][PASSED] - if (flag == "Y"): null
+
+30-09-2024T17:05:07 - [TEST_STEP][PASSED] - path = endPoint: null
+
+30-09-2024T17:05:07 - [TEST_STEP][PASSED] - URL_QA = baseURL_QA_old + "/" + basePathAPI + "/" + path: null
+
+30-09-2024T17:05:07 - [TEST_STEP][PASSED] - queryResponseQA = sendRequest(findTestObject("CommonRequest/GET_Method_QA", ["token":airlineQA_001_67723190, "endPoint":path])): Send request successfully
+
+30-09-2024T17:05:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/CommonRequest/GET_Method_QA'
+
+30-09-2024T17:05:07 - [MESSAGE][INFO] - Checking request object
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - HAR: C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Reports\20240930_170444\Airline Management\FCA-56527_QueryAirlineContactInformation\20240930_170444\requests\main\2.har
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - Send request successfully
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(queryResponseQA, 200): Verify response status code successfully
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - Checking response object
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - responseQA = queryResponseQA.getResponseBodyContent(): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - URL_QAMIG = baseURL_QA_MIG + "/" + basePathAPI + "/" + path: null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - queryResponseQAMIG = sendRequest(findTestObject("CommonRequest/GET_Method_QA_MIG", ["token":airlineQAMIG_001_67723190, "endPoint":path])): Send request successfully
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/CommonRequest/GET_Method_QA_MIG'
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - Checking request object
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - HAR: C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Reports\20240930_170444\Airline Management\FCA-56527_QueryAirlineContactInformation\20240930_170444\requests\main\3.har
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - Send request successfully
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(queryResponseQAMIG, 200): Verify response status code successfully
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - Checking response object
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - responseQAMIG = queryResponseQAMIG.getResponseBodyContent(): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - ignoreNodesList = Arrays.asList(ignoreNodes.split(",")): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - responseQAObject = jsonSlurper.parseText(responseQA): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - jsonObjectQA = responseQAObject: null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - responseQAMIGObject = jsonSlurper.parseText(responseQAMIG): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - jsonObjectQAMIG = responseQAMIGObject: null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - comparator = compare.CompareJsonResponse.getComparator(ignoreNodes): compare.CompareJsonResponse.getComparator is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - compare.CompareJsonResponse.getComparator is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - compare.GetDifferences.clearSetValues(): compare.GetDifferences.clearSetValues is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - compare.GetDifferences.clearSetValues is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - if (jsonObjectQA.has("records") || jsonObjectQAMIG.has("records")): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - else: compare.GetDifferences.setDifferencesFromResult is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - ignoreNodesList.each({ java.lang.Object node -> ... }): compare.CompareJsonResponse.removeNode is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - compare.CompareJsonResponse.removeNode is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - compare.CompareJsonResponse.removeNode is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - compareJSON = JSONCompare.compareJSON(jsonObjectQA, jsonObjectQAMIG, comparator): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - compare.GetDifferences.setDifferencesFromResult(compareJSON): compare.GetDifferences.setDifferencesFromResult is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - failedFieldsList -> []
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - compare.GetDifferences.setDifferencesFromResult is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList = ignoreNodesList: null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - failedList = new java.util.ArrayList(CustomKeywords.compare.GetDifferences.getFailedFieldsList()): compare.GetDifferences.getFailedFieldsList is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - failedFieldsList size -> 0
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - compare.GetDifferences.getFailedFieldsList is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - missingList = new java.util.ArrayList(CustomKeywords.compare.GetDifferences.getMissingFieldsList()): compare.GetDifferences.getMissingFieldsList is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - missingFieldsList size -> 0
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - compare.GetDifferences.getMissingFieldsList is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - unexpectedList = new java.util.ArrayList(CustomKeywords.compare.GetDifferences.getUnexpectedFieldsList()): compare.GetDifferences.getUnexpectedFieldsList is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - unexpectedFieldsList size -> 0
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - compare.GetDifferences.getUnexpectedFieldsList is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - if (failedList.size() > 0): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)'
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - logInfo(testCaseContext.getTestCaseId()): Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - logInfo(testCaseContext.getTestCaseStatus()): PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - responseQA = getTestCaseVariables().get("responseQA"): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - responseQAMIG = getTestCaseVariables().get("responseQAMIG"): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - sortedQA = getTestCaseVariables().get("sortedRecordsQA"): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - sortedQAMIG = getTestCaseVariables().get("sortedRecordsQAMIG"): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logStringData("URL_QA", getTestCaseVariables().get("URL_QA")): reporting.ExtentReporting.logStringData is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - reporting.ExtentReporting.logStringData is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logStringData("URL_QAMIG", getTestCaseVariables().get("URL_QAMIG")): reporting.ExtentReporting.logStringData is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - reporting.ExtentReporting.logStringData is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logJSONData("QA Response", responseQA): reporting.ExtentReporting.logJSONData is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - reporting.ExtentReporting.logJSONData is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logJSONData("QAMIG Response", responseQAMIG): reporting.ExtentReporting.logJSONData is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - reporting.ExtentReporting.logJSONData is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equals("FAILED")): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - else if (getTestCaseStatus().equals("ERROR")): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - else: reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - flag = getTestCaseVariables().get("flag"): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - if (flag.equalsIgnoreCase("N")): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - else: reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - reporting.ExtentReporting.testStatus("PASS", testCaseContext.getTestCaseId() + " Passed"): reporting.ExtentReporting.testStatus is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - reporting.ExtentReporting.testStatus is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - logInfo(getTestCaseVariables().get("URL_QA")): https://vwtwebnfe12/nfe-test/api/acdm-management/airline-info/6772484849
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - https://vwtwebnfe12/nfe-test/api/acdm-management/airline-info/6772484849
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - responseQAValue = getTestCaseVariables().get("responseQA"): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - logInfo(sortedQA): 
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - 
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - logInfo(getTestCaseVariables().get("URL_QAMIG")): https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/acdm-management/airline-info/6772484849
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/acdm-management/airline-info/6772484849
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - responseQAMIGValue = getTestCaseVariables().get("responseQAMIG"): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - logInfo(sortedQAMIG): 
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - 
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - missingIDsList = getTestCaseVariables().get("missing_IDs"): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - missingIDsList.each({ java.lang.Object id -> ... }): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList = getTestCaseVariables().get("fieldsToBeIgnoredList"): null
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList.each({ java.lang.Object fieldName -> ... }): Field Ignored -> airline.bsp.version
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - Field Ignored -> airline.bsp.version
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - if (fieldsToBeIgnoredList.size() > 0): reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logListData("Ignored Nodes ", fieldsToBeIgnoredList): reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - if (extentFlag.equals("y")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+30-09-2024T17:05:08 - [TEST_STEP][PASSED] - reporting.ExtentReporting.endTest(): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+30-09-2024T17:05:08 - [MESSAGE][PASSED] - reporting.ExtentReporting.endTest is PASSED
+
+30-09-2024T17:05:08 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation" time="1.313" classname="Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation" status="PASSED">
+         <system-out><![CDATA[30-09-2024T17:05:09 - [TEST_CASE][PASSED] - Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation: Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - Start listener action : Before: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+30-09-2024T17:05:09 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)'
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - tc_description = testCaseContext.getMessage(): null
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - tcName = testCaseId: null
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - println(tcName): null
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - reporting.ExtentReporting.startTest(reportPath, testSuiteName, tcName, tc_description, author, "Extent Test", reportFile): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+30-09-2024T17:05:09 - [MESSAGE][PASSED] - reporting.ExtentReporting.startTest is PASSED
+
+30-09-2024T17:05:09 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - if (flag == "Y"): null
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - path = endPoint: null
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - URL_QA = baseURL_QA_old + "/" + basePathAPI + "/" + path: null
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - queryResponseQA = sendRequest(findTestObject("CommonRequest/GET_Method_QA", ["token":airlineQA_001_67723190, "endPoint":path])): Send request successfully
+
+30-09-2024T17:05:09 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/CommonRequest/GET_Method_QA'
+
+30-09-2024T17:05:09 - [MESSAGE][INFO] - Checking request object
+
+30-09-2024T17:05:09 - [MESSAGE][INFO] - HAR: C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Reports\20240930_170444\Airline Management\FCA-56527_QueryAirlineContactInformation\20240930_170444\requests\main\4.har
+
+30-09-2024T17:05:09 - [MESSAGE][PASSED] - Send request successfully
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(queryResponseQA, 200): Verify response status code successfully
+
+30-09-2024T17:05:09 - [MESSAGE][INFO] - Checking response object
+
+30-09-2024T17:05:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - responseQA = queryResponseQA.getResponseBodyContent(): null
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - URL_QAMIG = baseURL_QA_MIG + "/" + basePathAPI + "/" + path: null
+
+30-09-2024T17:05:09 - [TEST_STEP][PASSED] - queryResponseQAMIG = sendRequest(findTestObject("CommonRequest/GET_Method_QA_MIG", ["token":airlineQAMIG_001_67723190, "endPoint":path])): Send request successfully
+
+30-09-2024T17:05:09 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/CommonRequest/GET_Method_QA_MIG'
+
+30-09-2024T17:05:09 - [MESSAGE][INFO] - Checking request object
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - HAR: C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Reports\20240930_170444\Airline Management\FCA-56527_QueryAirlineContactInformation\20240930_170444\requests\main\5.har
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - Send request successfully
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(queryResponseQAMIG, 200): Verify response status code successfully
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - Checking response object
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - responseQAMIG = queryResponseQAMIG.getResponseBodyContent(): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - ignoreNodesList = Arrays.asList(ignoreNodes.split(",")): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - responseQAObject = jsonSlurper.parseText(responseQA): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - jsonObjectQA = responseQAObject: null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - responseQAMIGObject = jsonSlurper.parseText(responseQAMIG): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - jsonObjectQAMIG = responseQAMIGObject: null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - comparator = compare.CompareJsonResponse.getComparator(ignoreNodes): compare.CompareJsonResponse.getComparator is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - compare.CompareJsonResponse.getComparator is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - compare.GetDifferences.clearSetValues(): compare.GetDifferences.clearSetValues is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - compare.GetDifferences.clearSetValues is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - if (jsonObjectQA.has("records") || jsonObjectQAMIG.has("records")): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - else: compare.GetDifferences.setDifferencesFromResult is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - ignoreNodesList.each({ java.lang.Object node -> ... }): compare.CompareJsonResponse.removeNode is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - compare.CompareJsonResponse.removeNode is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - compare.CompareJsonResponse.removeNode is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - compareJSON = JSONCompare.compareJSON(jsonObjectQA, jsonObjectQAMIG, comparator): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - compare.GetDifferences.setDifferencesFromResult(compareJSON): compare.GetDifferences.setDifferencesFromResult is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - failedFieldsList -> []
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - compare.GetDifferences.setDifferencesFromResult is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList = ignoreNodesList: null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - failedList = new java.util.ArrayList(CustomKeywords.compare.GetDifferences.getFailedFieldsList()): compare.GetDifferences.getFailedFieldsList is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - failedFieldsList size -> 0
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - compare.GetDifferences.getFailedFieldsList is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - missingList = new java.util.ArrayList(CustomKeywords.compare.GetDifferences.getMissingFieldsList()): compare.GetDifferences.getMissingFieldsList is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - missingFieldsList size -> 0
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - compare.GetDifferences.getMissingFieldsList is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - unexpectedList = new java.util.ArrayList(CustomKeywords.compare.GetDifferences.getUnexpectedFieldsList()): compare.GetDifferences.getUnexpectedFieldsList is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - unexpectedFieldsList size -> 0
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - compare.GetDifferences.getUnexpectedFieldsList is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - if (failedList.size() > 0): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)'
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - logInfo(testCaseContext.getTestCaseId()): Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - logInfo(testCaseContext.getTestCaseStatus()): PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - responseQA = getTestCaseVariables().get("responseQA"): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - responseQAMIG = getTestCaseVariables().get("responseQAMIG"): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - sortedQA = getTestCaseVariables().get("sortedRecordsQA"): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - sortedQAMIG = getTestCaseVariables().get("sortedRecordsQAMIG"): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logStringData("URL_QA", getTestCaseVariables().get("URL_QA")): reporting.ExtentReporting.logStringData is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - reporting.ExtentReporting.logStringData is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logStringData("URL_QAMIG", getTestCaseVariables().get("URL_QAMIG")): reporting.ExtentReporting.logStringData is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - reporting.ExtentReporting.logStringData is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logJSONData("QA Response", responseQA): reporting.ExtentReporting.logJSONData is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - reporting.ExtentReporting.logJSONData is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logJSONData("QAMIG Response", responseQAMIG): reporting.ExtentReporting.logJSONData is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - reporting.ExtentReporting.logJSONData is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equals("FAILED")): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - else if (getTestCaseStatus().equals("ERROR")): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - else: reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - flag = getTestCaseVariables().get("flag"): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - if (flag.equalsIgnoreCase("N")): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - else: reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - reporting.ExtentReporting.testStatus("PASS", testCaseContext.getTestCaseId() + " Passed"): reporting.ExtentReporting.testStatus is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - reporting.ExtentReporting.testStatus is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - logInfo(getTestCaseVariables().get("URL_QA")): https://vwtwebnfe12/nfe-test/api/refund-management/airline-info/6772484849
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - https://vwtwebnfe12/nfe-test/api/refund-management/airline-info/6772484849
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - responseQAValue = getTestCaseVariables().get("responseQA"): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - logInfo(sortedQA): 
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - 
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - logInfo(getTestCaseVariables().get("URL_QAMIG")): https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/refund-management/airline-info/6772484849
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/refund-management/airline-info/6772484849
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - responseQAMIGValue = getTestCaseVariables().get("responseQAMIG"): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - logInfo(sortedQAMIG): 
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - 
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - missingIDsList = getTestCaseVariables().get("missing_IDs"): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - missingIDsList.each({ java.lang.Object id -> ... }): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList = getTestCaseVariables().get("fieldsToBeIgnoredList"): null
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList.each({ java.lang.Object fieldName -> ... }): Field Ignored -> airline.bsp.version
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - Field Ignored -> airline.bsp.version
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - if (fieldsToBeIgnoredList.size() > 0): reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logListData("Ignored Nodes ", fieldsToBeIgnoredList): reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - reporting.ExtentReporting.logListData is PASSED
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - if (extentFlag.equals("y")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+30-09-2024T17:05:10 - [TEST_STEP][PASSED] - reporting.ExtentReporting.endTest(): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+30-09-2024T17:05:10 - [MESSAGE][PASSED] - reporting.ExtentReporting.endTest is PASSED
+
+30-09-2024T17:05:10 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-09-2024T17:04:50 - [TEST_SUITE][PASSED] - FCA-56527_QueryAirlineContactInformation: Test Cases/Airline_Management/airline-contact-information/FCA_56527_QueryAirlineContactInformation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

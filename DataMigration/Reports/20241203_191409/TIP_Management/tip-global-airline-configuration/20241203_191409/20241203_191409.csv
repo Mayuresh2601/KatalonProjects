@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+tip-global-airline-configuration,,,,03-12-2024 19:14:15,03-12-2024 19:14:27,11.834s,PASSED
+,,,,,,,
+Test Cases/TIP_Management/tip-global-airline-configuration/FCA_15694_TIP_Global_Airline_Configuration,,TIP Global Airline Configuration,"getQuery,tip-global-airline-configuration",03-12-2024 19:14:16,03-12-2024 19:14:27,11.202s,PASSED
+Start listener action : Before,,,,03-12-2024 19:14:17,03-12-2024 19:14:20,3.069s,PASSED
+"if (flag == ""Y"")",,,,03-12-2024 19:14:21,03-12-2024 19:14:26,4.904s,PASSED
+Start listener action : afterTestCase,,,,03-12-2024 19:14:26,03-12-2024 19:14:27,0.754s,PASSED

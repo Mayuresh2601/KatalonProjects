@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FileHandle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73c74df6-c6b6-4333-bfdb-16c36f156c93</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f9c043a-b81e-4af8-a711-aad0bb1496bb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'CXMLF-'</defaultValue>
+      <description></description>
+      <id>8f9c043a-b81e-4af8-a711-aad0bb1496bb</id>
+      <masked>false</masked>
+      <name>prefix</name>
+   </variable>
+</TestCaseEntity>

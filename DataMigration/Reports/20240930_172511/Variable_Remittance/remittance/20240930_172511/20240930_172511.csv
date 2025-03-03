@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+remittance,,,,30-09-2024 17:25:18,30-09-2024 17:25:38,20.118s,ERROR
+,,,,,,,
+Test Cases/Variable_Remittance/Remittance Settings/FCA-16034_QueryRemittanceSettingsForAgents,,airline-contact-information,"getQuery,queryRemittanceSettings",30-09-2024 17:25:19,30-09-2024 17:25:38,19.556s,ERROR
+Start listener action : Before,,,,30-09-2024 17:25:22,30-09-2024 17:25:29,7.104s,PASSED
+"if (flag == ""Y"")",,,,30-09-2024 17:25:31,30-09-2024 17:25:38,6.626s,ERROR
+Start listener action : afterTestCase,,,,30-09-2024 17:25:38,30-09-2024 17:25:38,0.735s,PASSED

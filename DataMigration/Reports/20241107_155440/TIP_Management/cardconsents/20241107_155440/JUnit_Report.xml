@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="cardconsents" time="11.586" tests="1" failures="0" errors="1">
+   <testsuite name="cardconsents" tests="1" failures="0" errors="1" time="11.586" skipped="0" timestamp="07-11-2024T15:54:46" hostname="Mayuresh.Sonar - CCE1019.accelya.local" id="Test Suites/TIP_Management/cardconsents">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mayuresh.sonar\\KatalonStudio\\DataMigration\\NFE-API-automationK\\Reports\\20241107_155440\\TIP_Management\\cardconsents\\20241107_155440"/>
+         <property name="logFiles" value="C:\\Users\\mayuresh.sonar\\KatalonStudio\\DataMigration\\NFE-API-automationK\\Reports\\20241107_155440\\TIP_Management\\cardconsents\\20241107_155440\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mayuresh.Sonar - CCE1019.accelya.local"/>
+         <property name="hostAddress" value="192.168.3.245"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.4.212"/>
+      </properties>
+      <testcase name="Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id" time="10.965" classname="Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id" status="ERROR">
+         <error type="ERROR" message="Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id FAILED.&#xa;Reason:&#xa;org.json.JSONException: JSONObject[&quot;card&quot;] not found.&#xa;	at org.json.JSONObject.get(JSONObject.java:473)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at compare.CompareJsonResponse$_removeNode_closure5.doCall(CompareJsonResponse.groovy:134)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at compare.CompareJsonResponse.removeNode(CompareJsonResponse.groovy:125)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at Script1728289361032$_run_closure2.doCall(Script1728289361032.groovy:194)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at FCA-15725_GET_TIP_Card_Consent_by_Id.run(FCA-15725_GET_TIP_Card_Consent_by_Id:193)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1730975080676.run(TempTestSuite1730975080676.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[07-11-2024T15:54:47 - [TEST_CASE][ERROR] - Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id: Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id FAILED.
+Reason:
+org.json.JSONException: JSONObject["card"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse$_removeNode_closure5.doCall(CompareJsonResponse.groovy:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse.removeNode(CompareJsonResponse.groovy:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1728289361032$_run_closure2.doCall(Script1728289361032.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-15725_GET_TIP_Card_Consent_by_Id.run(FCA-15725_GET_TIP_Card_Consent_by_Id:193)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730975080676.run(TempTestSuite1730975080676.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+07-11-2024T15:54:49 - [TEST_STEP][PASSED] - Start listener action : Before: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)'
+
+07-11-2024T15:54:49 - [TEST_STEP][PASSED] - tc_description = testCaseContext.getMessage(): null
+
+07-11-2024T15:54:49 - [TEST_STEP][PASSED] - tcName = testCaseId: null
+
+07-11-2024T15:54:49 - [TEST_STEP][PASSED] - println(tcName): null
+
+07-11-2024T15:54:49 - [TEST_STEP][PASSED] - reporting.ExtentReporting.startTest(reportPath, testSuiteName, tcName, tc_description, author, "Extent Test", reportFile): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:49 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:50 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Checking test data id
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Finding test data with id 'Data Files/Common/Users'
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Test data is excel file, reading excel file
+
+07-11-2024T15:54:51 - [MESSAGE][INFO] - Reading excel file with source file 'C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Data Files\TestData.xlsx' and sheet name 'users'
+
+07-11-2024T15:54:52 - [MESSAGE][PASSED] - reporting.ExtentReporting.startTest is PASSED
+
+07-11-2024T15:54:52 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.Before(...)' completed.
+
+07-11-2024T15:54:53 - [TEST_STEP][ERROR] - if (flag == "Y"): Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.json.JSONException: JSONObject["card"] not found.
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Script1728289361032$_run_closure2.doCall(Script1728289361032.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-15725_GET_TIP_Card_Consent_by_Id.run(FCA-15725_GET_TIP_Card_Consent_by_Id:193)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730975080676.run(TempTestSuite1730975080676.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.json.JSONException: JSONObject["card"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse$_removeNode_closure5.doCall(CompareJsonResponse.groovy:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse.removeNode(CompareJsonResponse.groovy:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 20 more
+
+
+07-11-2024T15:54:53 - [TEST_STEP][PASSED] - path = endPoint: null
+
+07-11-2024T15:54:53 - [TEST_STEP][PASSED] - URL_QA = baseURL_QA + "/" + basePathAPI + "/" + path: null
+
+07-11-2024T15:54:53 - [TEST_STEP][PASSED] - queryResponseQA = sendRequest(findTestObject("CommonRequest/GET_Method_QA", ["token":airlineQA_191_67724465, "endPoint":path])): Send request successfully
+
+07-11-2024T15:54:53 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/CommonRequest/GET_Method_QA'
+
+07-11-2024T15:54:53 - [MESSAGE][INFO] - Checking request object
+
+07-11-2024T15:54:56 - [MESSAGE][INFO] - HAR: C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Reports\20241107_155440\TIP_Management\cardconsents\20241107_155440\requests\main\0.har
+
+07-11-2024T15:54:56 - [MESSAGE][PASSED] - Send request successfully
+
+07-11-2024T15:54:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(queryResponseQA, 200): Verify response status code successfully
+
+07-11-2024T15:54:56 - [MESSAGE][INFO] - Checking response object
+
+07-11-2024T15:54:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+07-11-2024T15:54:56 - [TEST_STEP][PASSED] - responseQA = queryResponseQA.getResponseBodyContent(): null
+
+07-11-2024T15:54:56 - [TEST_STEP][PASSED] - URL_QAMIG = baseURL_QA_MIG + "/" + basePathAPI + "/" + path: null
+
+07-11-2024T15:54:56 - [TEST_STEP][PASSED] - queryResponseQAMIG = sendRequest(findTestObject("CommonRequest/GET_Method_QA_MIG", ["token":airlineQAMIG_191_67724465, "endPoint":path])): Send request successfully
+
+07-11-2024T15:54:56 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/CommonRequest/GET_Method_QA_MIG'
+
+07-11-2024T15:54:56 - [MESSAGE][INFO] - Checking request object
+
+07-11-2024T15:54:57 - [MESSAGE][INFO] - HAR: C:\Users\mayuresh.sonar\KatalonStudio\DataMigration\NFE-API-automationK\Reports\20241107_155440\TIP_Management\cardconsents\20241107_155440\requests\main\1.har
+
+07-11-2024T15:54:57 - [MESSAGE][PASSED] - Send request successfully
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(queryResponseQAMIG, 200): Verify response status code successfully
+
+07-11-2024T15:54:57 - [MESSAGE][INFO] - Checking response object
+
+07-11-2024T15:54:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - responseQAMIG = queryResponseQAMIG.getResponseBodyContent(): null
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - ignoreNodesList = Arrays.asList(ignoreNodes.split(",")): null
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - responseQAObject = jsonSlurper.parseText(responseQA): null
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - jsonObjectQA = responseQAObject: null
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - responseQAMIGObject = jsonSlurper.parseText(responseQAMIG): null
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - jsonObjectQAMIG = responseQAMIGObject: null
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - comparator = compare.CompareJsonResponse.getComparator(ignoreNodes): compare.CompareJsonResponse.getComparator is PASSED
+
+07-11-2024T15:54:57 - [MESSAGE][PASSED] - compare.CompareJsonResponse.getComparator is PASSED
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - compare.GetDifferences.clearSetValues(): compare.GetDifferences.clearSetValues is PASSED
+
+07-11-2024T15:54:57 - [MESSAGE][PASSED] - compare.GetDifferences.clearSetValues is PASSED
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - if (jsonObjectQA.has("records") || jsonObjectQAMIG.has("records")): null
+
+07-11-2024T15:54:57 - [TEST_STEP][ERROR] - else: Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.json.JSONException: JSONObject["card"] not found.
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Script1728289361032$_run_closure2.doCall(Script1728289361032.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-15725_GET_TIP_Card_Consent_by_Id.run(FCA-15725_GET_TIP_Card_Consent_by_Id:193)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730975080676.run(TempTestSuite1730975080676.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.json.JSONException: JSONObject["card"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse$_removeNode_closure5.doCall(CompareJsonResponse.groovy:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse.removeNode(CompareJsonResponse.groovy:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 20 more
+
+
+07-11-2024T15:54:57 - [TEST_STEP][ERROR] - ignoreNodesList.each({ java.lang.Object node -> ... }): Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.json.JSONException: JSONObject["card"] not found.
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Script1728289361032$_run_closure2.doCall(Script1728289361032.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-15725_GET_TIP_Card_Consent_by_Id.run(FCA-15725_GET_TIP_Card_Consent_by_Id:193)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730975080676.run(TempTestSuite1730975080676.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.json.JSONException: JSONObject["card"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse$_removeNode_closure5.doCall(CompareJsonResponse.groovy:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse.removeNode(CompareJsonResponse.groovy:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 20 more
+
+
+07-11-2024T15:54:57 - [MESSAGE][ERROR] - JSONObject["card"] not found.
+
+07-11-2024T15:54:57 - [MESSAGE][ERROR] - Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.json.JSONException: JSONObject["card"] not found.
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Script1728289361032$_run_closure2.doCall(Script1728289361032.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-15725_GET_TIP_Card_Consent_by_Id.run(FCA-15725_GET_TIP_Card_Consent_by_Id:193)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730975080676.run(TempTestSuite1730975080676.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.json.JSONException: JSONObject["card"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse$_removeNode_closure5.doCall(CompareJsonResponse.groovy:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse.removeNode(CompareJsonResponse.groovy:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 20 more
+
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+07-11-2024T15:54:57 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)'
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - logInfo(testCaseContext.getTestCaseId()): Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id
+
+07-11-2024T15:54:57 - [MESSAGE][INFO] - Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - logInfo(testCaseContext.getTestCaseStatus()): ERROR
+
+07-11-2024T15:54:57 - [MESSAGE][INFO] - ERROR
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - responseQA = getTestCaseVariables().get("responseQA"): null
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - responseQAMIG = getTestCaseVariables().get("responseQAMIG"): null
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - sortedQA = getTestCaseVariables().get("sortedRecordsQA"): null
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - sortedQAMIG = getTestCaseVariables().get("sortedRecordsQAMIG"): null
+
+07-11-2024T15:54:57 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logStringData("URL_QA", getTestCaseVariables().get("URL_QA")): reporting.ExtentReporting.logStringData is PASSED
+
+07-11-2024T15:54:58 - [MESSAGE][PASSED] - reporting.ExtentReporting.logStringData is PASSED
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logStringData("URL_QAMIG", getTestCaseVariables().get("URL_QAMIG")): reporting.ExtentReporting.logStringData is PASSED
+
+07-11-2024T15:54:58 - [MESSAGE][PASSED] - reporting.ExtentReporting.logStringData is PASSED
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logJSONData("QA Response", responseQA): reporting.ExtentReporting.logJSONData is PASSED
+
+07-11-2024T15:54:58 - [MESSAGE][PASSED] - reporting.ExtentReporting.logJSONData is PASSED
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - reporting.ExtentReporting.logJSONData("QAMIG Response", responseQAMIG): reporting.ExtentReporting.logJSONData is PASSED
+
+07-11-2024T15:54:58 - [MESSAGE][PASSED] - reporting.ExtentReporting.logJSONData is PASSED
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equals("FAILED")): null
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - else if (getTestCaseStatus().equals("ERROR")): null
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - reporting.ExtentReporting.testStatus("FAIL", testCaseContext.getMessage()): reporting.ExtentReporting.testStatus is PASSED
+
+07-11-2024T15:54:58 - [MESSAGE][PASSED] - reporting.ExtentReporting.testStatus is PASSED
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - logInfo(getTestCaseVariables().get("URL_QA")): https://gateway-gateway.apps.qa.okd4.nfe.projects.nonprod.itd.farelogix.com/api/tip-management/card-consents/677200000002503
+
+07-11-2024T15:54:58 - [MESSAGE][INFO] - https://gateway-gateway.apps.qa.okd4.nfe.projects.nonprod.itd.farelogix.com/api/tip-management/card-consents/677200000002503
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - responseQAValue = getTestCaseVariables().get("responseQA"): null
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - logInfo(responseQAValue): {"id":677200000002503,"airline":{"id":6772495749,"iataCode":"191"},"level":"country","card":null,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"type":"no","costRecovery":null,"effectiveFrom":"2022-03-04","effectiveTo":"2022-12-20","status":"Inactive"}
+
+07-11-2024T15:54:58 - [MESSAGE][INFO] - {"id":677200000002503,"airline":{"id":6772495749,"iataCode":"191"},"level":"country","card":null,"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"type":"no","costRecovery":null,"effectiveFrom":"2022-03-04","effectiveTo":"2022-12-20","status":"Inactive"}
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - logInfo(getTestCaseVariables().get("URL_QAMIG")): https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/tip-management/card-consents/677200000002503
+
+07-11-2024T15:54:58 - [MESSAGE][INFO] - https://gateway-gateway.apps.qa-mig.okd4.nfe.projects.nonprod.itd.farelogix.com/api/tip-management/card-consents/677200000002503
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - responseQAMIGValue = getTestCaseVariables().get("responseQAMIG"): null
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - logInfo(responseQAMIGValue): {"id":677200000002503,"airline":{"id":6772495749,"iataCode":"191","name":"Air XXXXX X.X.X. XXX XXX XXXXX X.X.X."},"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"level":"country","type":"no","status":"Inactive","effectiveFrom":"2022-03-04","effectiveTo":"2022-12-20"}
+
+07-11-2024T15:54:58 - [MESSAGE][INFO] - {"id":677200000002503,"airline":{"id":6772495749,"iataCode":"191","name":"Air XXXXX X.X.X. XXX XXX XXXXX X.X.X."},"bsp":{"id":6772,"isoCountryCode":"CH","name":"SWIT"},"level":"country","type":"no","status":"Inactive","effectiveFrom":"2022-03-04","effectiveTo":"2022-12-20"}
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - missingIDsList = getTestCaseVariables().get("missing_IDs"): null
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - missingIDsList.each({ java.lang.Object id -> ... }): null
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList = getTestCaseVariables().get("fieldsToBeIgnoredList"): null
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - fieldsToBeIgnoredList.each({ java.lang.Object fieldName -> ... }): null
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - if (extentFlag.equals("y")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+07-11-2024T15:54:58 - [TEST_STEP][PASSED] - reporting.ExtentReporting.endTest(): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.
+
+07-11-2024T15:54:58 - [MESSAGE][PASSED] - reporting.ExtentReporting.endTest is PASSED
+
+07-11-2024T15:54:58 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[07-11-2024T15:54:47 - [TEST_CASE][ERROR] - Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id: Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id FAILED.
+Reason:
+org.json.JSONException: JSONObject["card"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse$_removeNode_closure5.doCall(CompareJsonResponse.groovy:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse.removeNode(CompareJsonResponse.groovy:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1728289361032$_run_closure2.doCall(Script1728289361032.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-15725_GET_TIP_Card_Consent_by_Id.run(FCA-15725_GET_TIP_Card_Consent_by_Id:193)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730975080676.run(TempTestSuite1730975080676.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-11-2024T15:54:46 - [TEST_SUITE][ERROR] - cardconsents: Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id FAILED.
+Reason:
+org.json.JSONException: JSONObject["card"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse$_removeNode_closure5.doCall(CompareJsonResponse.groovy:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse.removeNode(CompareJsonResponse.groovy:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1728289361032$_run_closure2.doCall(Script1728289361032.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-15725_GET_TIP_Card_Consent_by_Id.run(FCA-15725_GET_TIP_Card_Consent_by_Id:193)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730975080676.run(TempTestSuite1730975080676.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[07-11-2024T15:54:46 - [TEST_SUITE][ERROR] - cardconsents: Test Cases/TIP_Management/card-consents/FCA-15725_GET_TIP_Card_Consent_by_Id FAILED.
+Reason:
+org.json.JSONException: JSONObject["card"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse$_removeNode_closure5.doCall(CompareJsonResponse.groovy:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at compare.CompareJsonResponse.removeNode(CompareJsonResponse.groovy:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1728289361032$_run_closure2.doCall(Script1728289361032.groovy:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at FCA-15725_GET_TIP_Card_Consent_by_Id.run(FCA-15725_GET_TIP_Card_Consent_by_Id:193)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730975080676.run(TempTestSuite1730975080676.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>
